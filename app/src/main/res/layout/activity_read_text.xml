@@ -40,7 +40,7 @@
             android:layout_height="match_parent"
             android:fillViewport="true">
 
-            <org.fossify.filemanager.views.GestureEditText
+            <com.satirr.range.views.GestureEditText
                 android:id="@+id/read_text_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

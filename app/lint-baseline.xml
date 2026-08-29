@@ -18,7 +18,7 @@
         errorLine1="                launchChangeAppLanguageIntent()"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/activities/SettingsActivity.kt"
+            file="src/main/kotlin/com/satirr/range/activities/SettingsActivity.kt"
             line="91"
             column="17"/>
     </issue>
@@ -40,7 +40,7 @@
         errorLine1="class SplashActivity : BaseSplashActivity() {"
         errorLine2="      ~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/activities/SplashActivity.kt"
+            file="src/main/kotlin/com/satirr/range/activities/SplashActivity.kt"
             line="6"
             column="7"/>
     </issue>
@@ -84,7 +84,7 @@
         errorLine1="        fileDrawable = resources.getDrawable(R.drawable.ic_file_generic)"
         errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/adapters/DecompressItemsAdapter.kt"
+            file="src/main/kotlin/com/satirr/range/adapters/DecompressItemsAdapter.kt"
             line="136"
             column="24"/>
     </issue>
@@ -95,7 +95,7 @@
         errorLine1="            val drawable = resources.getDrawable(R.drawable.shortcut_folder).mutate()"
         errorLine2="                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/adapters/ItemsAdapter.kt"
+            file="src/main/kotlin/com/satirr/range/adapters/ItemsAdapter.kt"
             line="376"
             column="28"/>
     </issue>
@@ -106,7 +106,7 @@
         errorLine1="        fileDrawable = resources.getDrawable(R.drawable.ic_file_generic)"
         errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/adapters/ItemsAdapter.kt"
+            file="src/main/kotlin/com/satirr/range/adapters/ItemsAdapter.kt"
             line="1152"
             column="24"/>
     </issue>
@@ -612,7 +612,7 @@
         errorLine1="            notifyDataSetChanged()"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/adapters/ItemsAdapter.kt"
+            file="src/main/kotlin/com/satirr/range/adapters/ItemsAdapter.kt"
             line="980"
             column="13"/>
     </issue>
@@ -623,7 +623,7 @@
         errorLine1="            notifyDataSetChanged()"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/adapters/ItemsAdapter.kt"
+            file="src/main/kotlin/com/satirr/range/adapters/ItemsAdapter.kt"
             line="984"
             column="13"/>
     </issue>
@@ -634,7 +634,7 @@
         errorLine1="        notifyDataSetChanged()"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/adapters/ItemsAdapter.kt"
+            file="src/main/kotlin/com/satirr/range/adapters/ItemsAdapter.kt"
             line="991"
             column="9"/>
     </issue>
@@ -645,7 +645,7 @@
         errorLine1="        notifyDataSetChanged()"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/adapters/ItemsAdapter.kt"
+            file="src/main/kotlin/com/satirr/range/adapters/ItemsAdapter.kt"
             line="997"
             column="9"/>
     </issue>
@@ -656,7 +656,7 @@
         errorLine1="        notifyDataSetChanged()"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/adapters/ItemsAdapter.kt"
+            file="src/main/kotlin/com/satirr/range/adapters/ItemsAdapter.kt"
             line="1002"
             column="9"/>
     </issue>
@@ -726,7 +726,7 @@
     <issue
         id="UnusedResources"
         message="The resource `R.string.package_name` appears to be unused"
-        errorLine1="    &lt;string name=&quot;package_name&quot;>org.fossify.filemanager&lt;/string>"
+        errorLine1="    &lt;string name=&quot;package_name&quot;>com.satirr.range&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/values/donottranslate.xml"
@@ -861,7 +861,7 @@
         errorLine1="        set(show) = prefs.edit().putBoolean(SHOW_HIDDEN, show).apply()"
         errorLine2="                    ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="17"
             column="21"/>
     </issue>
@@ -872,7 +872,7 @@
         errorLine1="        set(temporarilyShowHidden) = prefs.edit().putBoolean(TEMPORARILY_SHOW_HIDDEN, temporarilyShowHidden).apply()"
         errorLine2="                                     ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="21"
             column="38"/>
     </issue>
@@ -883,7 +883,7 @@
         errorLine1="        set(pressBackTwice) = prefs.edit().putBoolean(PRESS_BACK_TWICE, pressBackTwice).apply()"
         errorLine2="                              ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="27"
             column="31"/>
     </issue>
@@ -894,7 +894,7 @@
         errorLine1="        set(homeFolder) = prefs.edit().putString(HOME_FOLDER, homeFolder).apply()"
         errorLine2="                          ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="38"
             column="27"/>
     </issue>
@@ -905,7 +905,7 @@
         errorLine1="        set(isRootAvailable) = prefs.edit().putBoolean(IS_ROOT_AVAILABLE, isRootAvailable).apply()"
         errorLine2="                               ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="69"
             column="32"/>
     </issue>
@@ -916,7 +916,7 @@
         errorLine1="        set(enableRootAccess) = prefs.edit().putBoolean(ENABLE_ROOT_ACCESS, enableRootAccess).apply()"
         errorLine2="                                ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="73"
             column="33"/>
     </issue>
@@ -927,7 +927,7 @@
         errorLine1="        set(editorTextZoom) = prefs.edit().putFloat(EDITOR_TEXT_ZOOM, editorTextZoom).apply()"
         errorLine2="                              ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="77"
             column="31"/>
     </issue>
@@ -938,7 +938,7 @@
         errorLine1="            prefs.edit().putInt(VIEW_TYPE_PREFIX + path.lowercase(Locale.getDefault()), value).apply()"
         errorLine2="            ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="83"
             column="13"/>
     </issue>
@@ -949,7 +949,7 @@
         errorLine1="        prefs.edit().remove(VIEW_TYPE_PREFIX + path.lowercase(Locale.getDefault())).apply()"
         errorLine2="        ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="90"
             column="9"/>
     </issue>
@@ -960,7 +960,7 @@
         errorLine1="        set(fileColumnCnt) = prefs.edit().putInt(getFileColumnsField(), fileColumnCnt).apply()"
         errorLine2="                             ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="97"
             column="30"/>
     </issue>
@@ -971,7 +971,7 @@
         errorLine1="        set(displayFilenames) = prefs.edit().putBoolean(DISPLAY_FILE_NAMES, displayFilenames).apply()"
         errorLine2="                                ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="115"
             column="33"/>
     </issue>
@@ -982,7 +982,7 @@
         errorLine1="        set(showTabs) = prefs.edit().putInt(SHOW_TABS, showTabs).apply()"
         errorLine2="                        ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="119"
             column="25"/>
     </issue>
@@ -993,7 +993,7 @@
         errorLine1="        set(wasStorageAnalysisTabAdded) = prefs.edit().putBoolean(WAS_STORAGE_ANALYSIS_TAB_ADDED, wasStorageAnalysisTabAdded).apply()"
         errorLine2="                                          ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/helpers/Config.kt"
+            file="src/main/kotlin/com/satirr/range/helpers/Config.kt"
             line="123"
             column="43"/>
     </issue>
@@ -1004,7 +1004,7 @@
         errorLine1="                            intent.data = Uri.parse(&quot;package:$packageName&quot;)"
         errorLine2="                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/activities/SimpleActivity.kt"
+            file="src/main/kotlin/com/satirr/range/activities/SimpleActivity.kt"
             line="80"
             column="43"/>
     </issue>
@@ -1015,7 +1015,7 @@
         errorLine1="                            intent.data = Uri.parse(&quot;package:$packageName&quot;)"
         errorLine2="                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/activities/SimpleActivity.kt"
+            file="src/main/kotlin/com/satirr/range/activities/SimpleActivity.kt"
             line="80"
             column="43"/>
     </issue>
@@ -1026,7 +1026,7 @@
         errorLine1="    override fun onTouchEvent(event: MotionEvent): Boolean {"
         errorLine2="                 ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/filemanager/views/GestureEditText.kt"
+            file="src/main/kotlin/com/satirr/range/views/GestureEditText.kt"
             line="56"
             column="18"/>
     </issue>

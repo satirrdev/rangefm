@@ -1,1 +1,0 @@
-Handy, lightweight, open-source file explorer with essential features.

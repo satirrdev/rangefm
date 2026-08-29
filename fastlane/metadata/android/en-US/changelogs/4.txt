@@ -1,8 +1,0 @@
-Changed:
-
-• Updated translations
-
-Fixed:
-
-• File modification time is now preserved when compressing/decompressing files 
-

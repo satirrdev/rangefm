@@ -1,42 +1,37 @@
-# Fossify File Manager
+# Range FM
 
 <img alt="Logo" src="graphics/icon.webp" width="120" />
 
-<a href='https://play.google.com/store/apps/details?id=org.fossify.filemanager'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height=80/></a> <a href="https://f-droid.org/packages/org.fossify.filemanager/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-en.svg" alt="Get it on F-Droid" height=80/></a> <a href="https://apt.izzysoft.de/fdroid/index/apk/org.fossify.filemanager"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height=80/></a>
+Range FM is a fast, ad-free, open-source file manager for Android, forked from [Fossify File Manager](https://github.com/FossifyOrg/File-Manager).
 
-Tired of file managers that slow you down and invade your privacy? Unlock a lightning-fast, secure, and completely customizable experience with Fossify File Manager. ⚡
+- Swiftly manage your files with compression, transfer, and search.
+- Access frequently used folders with a customizable home folder and favorites.
+- Secure sensitive files with password, pattern, or fingerprint locks.
+- No internet access. Your files stay on your device.
+- Navigate root files, SD cards, and USB devices.
+- Light file editor with zoom gestures.
 
-**🚀 DOMINATE YOUR DIGITAL WORLD WITH BLAZING-FAST NAVIGATION:**
- - Swiftly manage your files with easy compression and transfer capabilities, keeping your digital life organized.
- - Quickly access your most-used folders with customizable home folder and favorite shortcuts.
- - Find what you need in seconds with intuitive navigation, search, and sorting options.
+## Building
 
-**🔐 FORTIFY YOUR DATA WITH UNPARALLELED PRIVACY AND SECURITY:**
- - Secure sensitive files with password, pattern, or fingerprint locks for hidden items or the entire app.
- - No internet access required – your files stay private and secure on your device.
+Build the APK locally:
 
-**💾 MASTER YOUR STORAGE LIKE A PRO:**
- - Clear space with easy file and folder compression to maximize your device's potential.
- - Identify and clean up space-hogging files with the built-in storage analysis tool.
- - Seamlessly navigate root files, SD cards, and USB devices for total organization.
+```bash
+./gradlew :app:assembleCoreDebug
+```
 
-**📁 OPTIMIZE YOUR WORKFLOW WITH HANDY TOOLS:**
- - Create desktop shortcuts for instant access to your most-used files and folders.
- - Edit, print, or read documents easily with the light file editor, enhanced by zoom gestures.
+The debug APK is output to `app/build/outputs/apk/core/debug/`. It is signed with the debug keystore and can be installed directly.
 
-**🌈 MAKE IT YOUR OWN WITH ENDLESS CUSTOMIZATION:**
- - Enjoy an ad-free, open-source experience that puts you in control, not corporate giants.
- - Personalize colors, themes, and icons to reflect your unique style and preferences.
+GitHub Actions builds every push to `main` and on manual dispatch. Push a tag like `v1.0.0` to create a GitHub Release with the installable APK.
 
-Ditch the bloated, privacy-invading file managers and experience true freedom with Fossify File Manager. Download now and take back control of your digital life!
+## License
 
-➡️ Explore more Fossify apps: https://www.fossify.org<br>
-➡️ Open-Source Code: https://www.github.com/FossifyOrg<br>
-➡️ Join the community on Reddit: https://www.reddit.com/r/Fossify<br>
-➡️ Connect on Telegram: https://t.me/Fossify
+```
+Copyright (C) 2023 FossifyOrg — this project is a fork of Fossify File Manager.
 
-<div align="center">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="30%">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" width="30%">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png" width="30%">
-</div>
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+```
+
+See [LICENSE](LICENSE) for the full text.

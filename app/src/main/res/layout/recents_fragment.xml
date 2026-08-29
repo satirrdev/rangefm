@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.fossify.filemanager.fragments.RecentsFragment xmlns:android="http://schemas.android.com/apk/res/android"
+<com.satirr.range.fragments.RecentsFragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/recents_fragment"
@@ -22,7 +22,7 @@
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <org.fossify.filemanager.views.MySwipeRefreshLayout
+    <com.satirr.range.views.MySwipeRefreshLayout
         android:id="@+id/recents_swipe_refresh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -37,5 +37,5 @@
             android:scrollbars="none"
             app:layoutManager="org.fossify.commons.views.MyGridLayoutManager" />
 
-    </org.fossify.filemanager.views.MySwipeRefreshLayout>
-</org.fossify.filemanager.fragments.RecentsFragment>
+    </com.satirr.range.views.MySwipeRefreshLayout>
+</com.satirr.range.fragments.RecentsFragment>

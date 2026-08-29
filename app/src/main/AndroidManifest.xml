@@ -12,12 +12,12 @@
         android:required="false" />
 
     <queries>
-        <package android:name="org.fossify.filemanager.debug" />
-        <package android:name="org.fossify.filemanager" />
+        <package android:name="com.satirr.range.debug" />
+        <package android:name="com.satirr.range" />
     </queries>
 
     <application
-        android:name="org.fossify.filemanager.App"
+        android:name="com.satirr.range.App"
         android:allowBackup="true"
         android:appCategory="productivity"
         android:icon="@mipmap/ic_launcher"
@@ -101,7 +101,7 @@
         </activity>
 
         <activity
-            android:name="org.fossify.filemanager.activities.DecompressActivity"
+            android:name="com.satirr.range.activities.DecompressActivity"
             android:configChanges="orientation"
             android:exported="true"
             android:label="@string/decompress">

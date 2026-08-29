@@ -1,1 +1,0 @@
-Gestor de ficheiros útil, leve e de código aberto com funções essenciais.
