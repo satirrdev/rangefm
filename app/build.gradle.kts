@@ -137,7 +137,7 @@ detekt {
 }
 
 dependencies {
-    implementation(libs.fossify.commons)
+    implementation(project(":commons"))
     implementation(libs.androidx.documentfile)
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.roottools)
