@@ -3,6 +3,7 @@ package org.fossify.commons.activities
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import org.fossify.commons.R
+import org.fossify.commons.extensions.*
 
 abstract class BaseSplashActivity : AppCompatActivity() {
     abstract fun initActivity()
