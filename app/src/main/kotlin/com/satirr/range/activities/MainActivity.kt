@@ -34,7 +34,6 @@ import org.fossify.commons.extensions.humanizePath
 import org.fossify.commons.extensions.internalStoragePath
 import org.fossify.commons.extensions.isPathOnOTG
 import org.fossify.commons.extensions.isPathOnSD
-import org.fossify.commons.extensions.launchViewCustomizationIntent
 import org.fossify.commons.extensions.onGlobalLayout
 import org.fossify.commons.extensions.onTabSelectionChanged
 import org.fossify.commons.extensions.sdCardPath
