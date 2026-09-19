@@ -306,9 +306,7 @@
     <string name="undo_changes">Desfacer cambios</string>
     <string name="undo_changes_confirmation">Seguro que queres desfacer os cambios?</string>
     <string name="cannot_be_undone">Esta acción non se pode desfacer.</string>
-    <string name="save_before_closing">Tes cambios sen aplicar. Gardar antes de saír?</string>
-    <string name="global_theme_success">Cores actualizadas correctamente. Engadiuse un novo tema chamado \'Compartido\'. Utilízao para actualizar as cores de todos os aplicativos no futuro.</string>
-    <string name="light_theme">Claro</string>
+    <string name="save_before_closing">Tes cambios sen aplicar. Gardar antes de saír?</string>    <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_light_dark_theme">Auto claro/escuro</string>
     <string name="solarized">Solarizado</string>
@@ -794,11 +792,7 @@
     <string name="music_player_short">Reproductor de música</string>
     <string name="sms_messenger_short">Mensaxería SMS</string>
     <string name="thank_you_short">Grazas</string>
-    <string name="voice_recorder_short">Gravadora de voz</string>
-    <string name="sideloaded_app"><![CDATA[
-            Parece que a versión da túa aplicación está estragada. Descarga a versión orixinal <a href="%s">aquí</a>.
-        ]]></string>
-    <string name="frequently_asked_questions">Preguntas máis frecuentes</string>
+    <string name="voice_recorder_short">Gravadora de voz</string>    <string name="frequently_asked_questions">Preguntas máis frecuentes</string>
     <string name="before_asking_question">Antes de facer unha pregunta, lea primeiro</string>
     <string name="faq_1_title_commons">Como é que non vexo este widget de aplicacións na lista de widgets\?</string>
     <string name="faq_1_text_commons">O máis probable é porque moveches a aplicación nunha tarxeta SD. Hai unha limitación do sistema Android que oculta os widgets da aplicación nese caso. A única solución é mover a aplicación de novo ao Almacenamento interno mediante a configuración do dispositivo.</string>
@@ -813,7 +807,7 @@
     <string name="faq_7_title_commons">O diñeiro foi deducido da miña conta bancaria, pero non podo descargala aplicación. Que podo facer\?</string>
     <string name="faq_7_text_commons">Os pagos están xestionados por Google, o seu sistema falla de cando en vez. Só tes que borrar a memoria tobo da aplicación Google Play e reinicialo dispositivo e, despois, tentar descargalo de novo.</string>
     <string name="faq_8_title_commons">Por que debo actualizar á versión Pro?</string>
-    <string name="faq_8_text_commons">Como a versión da túa aplicación xa non se actualiza, os erros que quizais detectaches nunca se solucionarán. Tampouco se engadirán novas funcións. Podes mercala versión Pro en Google Play por unha pequena cantidade de diñeiro. É nun pago so, o que compres unha vez, nunca terás que pagalo de novo. Nin sequera despois de conseguir un novo dispositivo. Se non che gusta a versión Pro, podes desinstalala nunhas poucas horas e recuperarás o teu diñeiro automaticamente. Se queres un reembolso máis tarde, póñase en contacto connosco en hello@fossify.org e conseguirao.</string>
+    <string name="faq_8_text_commons">Como a versión da túa aplicación xa non se actualiza, os erros que quizais detectaches nunca se solucionarán. Tampouco se engadirán novas funcións. Podes mercala versión Pro en Google Play por unha pequena cantidade de diñeiro. É nun pago so, o que compres unha vez, nunca terás que pagalo de novo. Nin sequera despois de conseguir un novo dispositivo. Se non che gusta a versión Pro, podes desinstalala nunhas poucas horas e recuperarás o teu diñeiro automaticamente. Se queres un reembolso máis tarde, póñase en contacto connosco en satirrdev@proton.me e conseguirao.</string>
     <string name="faq_9_title_commons">Como podo seleccionar varios elementos dunha soa vez\?</string>
     <string name="faq_9_text_commons">Atoparas diferentes formas de facelo. O primeiro é iniciar o modo de selección mantendo presionado un elemento e, a continuación, premendo brevemente sobre outros para seleccionalos. A segunda forma é semellante a seleccionar elementos nos ordenadores cun rato, só tes que iniciar o modo de selección mantendo presionado un elemento e, a continuación, co dedo aínda para abaixo arrástralo por outros elementos para seleccionalo. A terceira forma de seleccionar varios elementos é premendo un elemento durante moito tempo, despois premendo outro e seleccionando todo o que hai entre eles. Se queres seleccionar todos os elementos, só tes que premer un elemento e, a continuación, fai clic no contador de elementos seleccionados na esquina superior esquerda. Isto seleccionará ou deseleccionará todo.</string>
     <string name="faq_10_title_commons">Merquei a aplicación, pero non podo descargala noutro dispositivo.</string>
@@ -946,13 +940,13 @@
         <item quantity="one">A túa proba caduca en %d día.</item>
         <item quantity="other">A túa proba caduca en %d días.</item>
     </plurals>
-    <string name="deprecated_app">OBSOLETA: Esta versión do app xa non se está mantendo, obtén a versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Non esquezas que se desinstalas calquera app de pago antes de 2 horas, devolveránseche os cartos automáticamente. Se queres unha devolución máis tarde, contáctanos en hello@fossify.org e terala. Isto fai que sexa fácil probala :)</string>
+    <string name="deprecated_app">OBSOLETA: Esta versión do app xa non se está mantendo, obtén a versión Pro en https://play.google.com/store/apps/details?id=com.satirr..xxx.pro</string>
+    <string name="pro_app_refund">Non esquezas que se desinstalas calquera app de pago antes de 2 horas, devolveránseche os cartos automáticamente. Se queres unha devolución máis tarde, contáctanos en satirrdev@proton.me e terala. Isto fai que sexa fácil probala :)</string>
     <string name="developer_description">Un grupo de aplicacións Android sinxelas e de código aberto con widgets persoalizables, sen anuncios e permisos innecesarios.</string>
     <string name="audio">Audio</string>
     <string name="faq_2_text_commons"><![CDATA[
             Claro que si. Podes falarlle á xente sobre as aplicacións ou valoralas positivamente. Tamén podes colaborar traducíndoas ao teu idioma ou actualizando e mantendo as xa existentes.
-            Aquí tes a guía para traducir <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">nesta web</a>, ou contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se queres facer algunha pregunta.
+            Aquí tes a guía para traducir <a href="https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file">nesta web</a>, ou contacta con nós en <a href="mailto:satirrdev@proton.me">satirrdev@proton.me</a> se queres facer algunha pregunta.
         ]]></string>
     <plurals name="files_saved">
         <item quantity="one">Ficheiro gardado correctamente</item>
@@ -988,15 +982,7 @@
     <string name="internal_storage">Almacenaxe interna</string>
     <string name="genre">Xénero</string>
     <string name="exif">EXIF</string>
-    <string name="altitude">Altitude</string>
-    <string name="apply_to_all_apps">Aplicar o tema a todas as apps Fossify</string>
-    <string name="app_icon_color_warning">Precaución: Certos Lanzadores non xestionan correctamente a personalización. Se a icona desparece, intenta iniciar a app a través de Google Play ou un widget, se está accesible. Despois de iniciar, restablece a cor verde #106D1F. En casos extremos pode que precises reinstalar a app.</string>
-    <string name="shared_theme_note">Ten en conta que incluso usando a versión Pro da app, necesitarás Fossify Thank You por razóns técnicas, porque se encarga da sincronización da cor.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Por favor merca <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para usar esta característica e axudar ao desenvolvemento. Grazas!
-        ]]></string>
-    <string name="auto_theme">Auto</string>
-    <string name="white">Branco</string>
+    <string name="altitude">Altitude</string>    <string name="app_icon_color_warning">Precaución: Certos Lanzadores non xestionan correctamente a personalización. Se a icona desparece, intenta iniciar a app a través de Google Play ou un widget, se está accesible. Despois de iniciar, restablece a cor verde #106D1F. En casos extremos pode que precises reinstalar a app.</string>    <string name="white">Branco</string>
     <string name="allow_access_more_media">Permitir acceso a máis multimedia</string>
     <string name="view_contact_details">Ver detalles do contacto</string>
     <string name="pin_item">Fixar elemento</string>
@@ -1006,22 +992,10 @@
     <string name="add_contact">Engadir contacto</string>
     <string name="show_line_numbers">Mostrar números de liña</string>
     <string name="website">Sitio web</string>
-    <string name="known_issues">Problemas coñecidos</string>
-    <string name="more_fossify_apps">Máis apps Fossify</string>
-    <string name="rate_this_app">Valora esta app</string>
-    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
+    <string name="known_issues">Problemas coñecidos</string>    <string name="rate_this_app">Valora esta app</string>
+    <string name="copyright">v %1$s\nCopyright © Range FM %2$d</string>
     <string name="social">Social</string>
-    <string name="version_placeholder">Versión %s</string>
-    <string name="donate_please"><![CDATA[
-            Ola,<br><br>
-            agardamos goces da app. Non contén anuncios, por favor considera apoiar o seu desenvolvemento mercando a app <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> , así evitarás tamén volver a ver esta información.<br><br>
-            Grazas!
-        ]]></string>
-    <string name="all_fossify_apps">Todas as apps Fossify</string>
-    <string name="file_manager_short">Xestor de ficheiros</string>
-    <string name="notes_short">Notas</string>
-    <string name="donate_to_fossify">Doar a Fossify</string>
-    <string name="platforms">Plataformas</string>
+    <string name="version_placeholder">Versión %s</string>    <string name="notes_short">Notas</string>    <string name="platforms">Plataformas</string>
     <string name="little_to_no_fee">Pouquiño ou nada</string>
     <string name="fee_up_to_pct">Ata %1$d%%</string>
     <string name="cryptocurrency">Criptomoeda</string>
@@ -1063,11 +1037,7 @@
     <string name="minutes_letter">%dm</string>
     <string name="hours_letter">%dh</string>
     <string name="days_letter">%dd</string>
-    <string name="week_number_short">sem.</string>
-    <string name="purchase_simple_thank_you">Merca Fossify Thank You</string>
-    <string name="requires_fossify_thank_you">Require Fossify Thank You</string>
-    <string name="enables_more_customization">Permite máis personalizacións</string>
-    <string name="general_settings">Xeral</string>
+    <string name="week_number_short">sem.</string>    <string name="general_settings">Xeral</string>
     <string name="theme_and_colors">Tema e cores</string>
     <string name="notification_sound">Son da notificación</string>
     <string name="start_week_on">A semana comeza o</string>
@@ -1090,17 +1060,12 @@
     <string name="october_short">Out</string>
     <string name="november_short">Nov</string>
     <string name="december_short">Dec</string>
-    <string name="saturday_letter">S</string>
-    <string name="donate_new">Ola,&lt;br&gt;&lt;br&gt;agardamos que desfrutes da app. Non ten publicidade nin recollemos datos sobre ti, por favor apoia o seu desenvolvemento mercando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazas Fossify&lt;/a&gt;. Terás acceso a todas as características da app incluíndo a posibilidade de personalizar a cor.&lt;br&gt;&lt;br&gt;Grazas!</string>
-    <string name="donate_short">Apóianos mercando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazas Fossify&lt;/a&gt;, desbloquearás todas as características da app incluíndo a personalización da cor.</string>
-    <string name="update_thank_you">Por favor actualiza Grazas Fossify á última vesión</string>
-    <string name="features_locked">Esta función está bloqueada, por favor merca &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazas Fossify&lt;/a&gt; para desbloquear a app.&lt;br&gt;&lt;br&gt;É un pago único e se non te satisfai a app podemos devolverche os cartos.</string>
-    <string name="badge_deprecated">(retirada)</string>
+    <string name="saturday_letter">S</string>    <string name="badge_deprecated">(retirada)</string>
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="faq_6_text_commons">Este problema xurde cando o lanzador non é compatible coa personalización das iconas. Intenta iniciar a app a través de Google Play ou un widget, se é accesible. Após iniciala, restablece a cor verde #106D1F orixinal. En casos extremos pode ser preciso ter que reinstalar a aplicación.</string>
     <string name="contributors_label"><![CDATA[
-            Nesta lista están todas as persoas que colaborarón significativamente con Fossify, non só esta app. As traducións fanas persoas voluntarias,
-            contacta con nós se tamén queres axudar. As instruccións para traducir están <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">nesta páxina web</a>, ou simplemente contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tes algunha pregunta.
+            Nesta lista están todas as persoas que colaborarón significativamente con Range FM, non só esta app. As traducións fanas persoas voluntarias,
+            contacta con nós se tamén queres axudar. As instruccións para traducir están <a href="https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file">nesta páxina web</a>, ou simplemente contacta con nós en <a href="mailto:satirrdev@proton.me">satirrdev@proton.me</a> se tes algunha pregunta.
             Grazas a todas as colaboradoras e persoas que nos apoian!
         ]]></string>
     <string name="edit_contact">Editar contacto</string>

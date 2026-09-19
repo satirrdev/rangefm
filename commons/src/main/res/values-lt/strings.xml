@@ -291,9 +291,7 @@
     <string name="undo_changes">Atšaukti pakeitimus</string>
     <string name="undo_changes_confirmation">Ar tikrai norite atšaukti pakeitimus\?</string>
     <string name="cannot_be_undone">Šio veiksmo neįmanoma atšaukti.</string>
-    <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant\?</string>
-    <string name="global_theme_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
-    <string name="light_theme">Šviesus</string>
+    <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant\?</string>    <string name="light_theme">Šviesus</string>
     <string name="dark_theme">Tamsus</string>
     <string name="auto_theme">Automatinis</string>
     <string name="solarized">Švytintis</string>
@@ -718,7 +716,7 @@
     <string name="donate">Paaukoti</string>
     <string name="follow_us">Sekite mus</string>
     <string name="copyright">v %1$s
-\nAutorių teisės © Fossify %2$d</string>
+\nAutorių teisės © Range FM %2$d</string>
     <string name="support">Palaikymas</string>
     <string name="help_us">Padėkite mums</string>
     <string name="social">Socialiniai tinklai</string>
@@ -754,9 +752,7 @@
     <string name="notes_short">Užrašai</string>
     <string name="sms_messenger_short">Žinutės</string>
     <string name="thank_you_short">Ačiū</string>
-    <string name="voice_recorder_short">Garso rašytuvas</string>
-    <string name="sideloaded_app">Atrodo, kad jūsų programėlės versija yra pažeista. Atsisiųskite originalią versiją iš &lt;a href=%s&gt;čia&lt;/a&gt;.</string>
-    <string name="frequently_asked_questions">Dažniausiai užduodami klausimai</string>
+    <string name="voice_recorder_short">Garso rašytuvas</string>    <string name="frequently_asked_questions">Dažniausiai užduodami klausimai</string>
     <string name="before_asking_question">Prieš užduodami klausimą, iš pradžių, perskaitykite</string>
     <string name="faq_1_title_commons">Kodėl valdiklių sąraše nematau šios programėlės valdiklio\?</string>
     <string name="faq_1_text_commons">Greičiausiai, taip yra dėl to, kad perkėlėte programėlę į SD kortelę. Yra „Android“ sistemos apribojimas, kuris tokiu atveju paslepia nurodytos programėlės valdiklius. Vienintelis sprendimas yra per įrenginio nustatymus perkelti programėlę atgal į vidinę atmintį.</string>
@@ -771,7 +767,7 @@
     <string name="faq_7_title_commons">Pinigai buvo nuskaičiuoti nuo mano banko sąskaitos, o aš vis tiek negaliu atsisiųsti programėlės. Ką daryti\?</string>
     <string name="faq_7_text_commons">Mokėjimus pilnai apdoroja „Google“, jų sistema laikas nuo laiko stringa. Tiesiog, išvalykite „Google Play“ programėlės podėlį ir paleiskite įrenginį iš naujo, o tuomet, bandykite atsisiųsti programėlę.</string>
     <string name="faq_8_title_commons">Kodėl turėčiau atsinaujinti į „Pro“ versiją\?</string>
-    <string name="faq_8_text_commons">Kadangi jūsų programėlės versija daugiau nebeatnaujinama, klaidos, kurias galbūt pastebėjote, nebebus ištaisomos. Be to, nebebus pridedamos jokios naujos funkcijos. Už nedidelę pinigų sumą, per „Google Play“ galite įsigyti „Pro“ versiją. Tai yra vienkartinis mokestis, kas reiškia, jog vieną kartą įsigiję, daugiau nebeturėsite mokėti dar kartą. Netgi, jei įsigysite naują įrenginį. Jeigu „Pro“ versija jums nepatiks, per kelias valandas galėsite ją pašalinti ir pinigai bus jums grąžinti automatiškai. Jei pinigus norėsite susigrąžinti vėliau, tiesiog, susisiekite su mumis el. paštu hello@fossify.org ir mes juos grąžinsime.</string>
+    <string name="faq_8_text_commons">Kadangi jūsų programėlės versija daugiau nebeatnaujinama, klaidos, kurias galbūt pastebėjote, nebebus ištaisomos. Be to, nebebus pridedamos jokios naujos funkcijos. Už nedidelę pinigų sumą, per „Google Play“ galite įsigyti „Pro“ versiją. Tai yra vienkartinis mokestis, kas reiškia, jog vieną kartą įsigiję, daugiau nebeturėsite mokėti dar kartą. Netgi, jei įsigysite naują įrenginį. Jeigu „Pro“ versija jums nepatiks, per kelias valandas galėsite ją pašalinti ir pinigai bus jums grąžinti automatiškai. Jei pinigus norėsite susigrąžinti vėliau, tiesiog, susisiekite su mumis el. paštu satirrdev@proton.me ir mes juos grąžinsime.</string>
     <string name="faq_9_title_commons">Kaip vienu metu galiu pažymėti kelis elementus\?</string>
     <string name="faq_9_text_commons">Yra keli būdai, kaip galima tą padaryti. Pirmas būdas, tai įjungti žymėjimo veikseną, paspaudus ir ilgai palaikius ant vieno elemento, o tuomet trumpai paspaudžiant ant kitų, norimų pažymėti, elementų. Antras būdas yra panašus į tą, kuris naudojamas kompiuteriuose žymint elementus pele. Tiesiog, įjunkite žymėjimo veikseną paspaudę ir ilgai palaikę ant vieno elemento, o tuomet neatleisdami piršto, tempkite jį žemyn per kitus elementus, kad juos pažymėtumėte. Trečias būdas, kaip pažymėti kelis elementus, yra paspausti ir ilgai palaikyti ant vieno elemento, tuomet paspausti ir ilgai palaikyti ant kito elemento, ir viskas, kas yra tarp šių dviejų elementų, bus pažymėta. Jei norite pažymėti visus elementus, paspauskite ir ilgai palaikykite ant vieno elemento, o tuomet viršutiniame kairiajame kampe spustelėkite ant pažymėtų elementų skaitiklio. Tai viską pažymės arba nuims žymėjimą nuo visų elementų.</string>
     <string name="faq_10_title_commons">Aš įsigijau programėlę, bet negaliu jos atsisiųsti kitame įrenginyje.</string>
@@ -882,8 +878,8 @@
     <string name="audio_record_view_title">Audio Record View (garso vizualizavimas)</string>
     <string name="sms_mms_title">SMS MMS (SMS ir MMS apdorojimas)</string>
     <string name="apng_title">APNG Android (animuotų WebP palaikymas)</string>
-    <string name="deprecated_app">PASENUSI: Ši programėlės versija daugiau nebeprižiūrima, gaukite „Pro“ versiją, adresu https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Nepamirškite, jog jeigu per 2 valandas pašalinsite bet kurią mokamą programėlę, jums automatiškai bus grąžinti pinigai. Jei norėsite susigrąžinti pinigus vėliau, susisiekite su mumis el. paštu hello@fossify.org ir juos atgausite. Tokiu būdu galite lengvai išbandyti programėlę :)</string>
+    <string name="deprecated_app">PASENUSI: Ši programėlės versija daugiau nebeprižiūrima, gaukite „Pro“ versiją, adresu https://play.google.com/store/apps/details\?id=com.satirr..xxx.pro</string>
+    <string name="pro_app_refund">Nepamirškite, jog jeigu per 2 valandas pašalinsite bet kurią mokamą programėlę, jums automatiškai bus grąžinti pinigai. Jei norėsite susigrąžinti pinigus vėliau, susisiekite su mumis el. paštu satirrdev@proton.me ir juos atgausite. Tokiu būdu galite lengvai išbandyti programėlę :)</string>
     <string name="developer_description">Paprastų, atvirojo kodo „Android“ progamėlių rinkinys su tinkinamais valdikliais, be reklamų ir nereikalingų leidimų.</string>
     <string name="edit_contact">Taisyti adresatą</string>
     <string name="on_contact_click">Spustelėjus ant adresato</string>

@@ -1,9 +1,9 @@
 package com.satirr.range
 
 import com.github.ajalt.reprint.core.Reprint
-import org.fossify.commons.FossifyApp
+import com.satirr.commons.CommonsApp
 
-class App : FossifyApp() {
+class App : CommonsApp() {
     override val isAppLockFeatureAvailable = true
 
     override fun onCreate() {

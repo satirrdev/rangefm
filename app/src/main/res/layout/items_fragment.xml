@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <org.fossify.commons.views.Breadcrumbs
+            <com.satirr.commons.views.Breadcrumbs
                 android:id="@+id/breadcrumbs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
                 app:showDelay="250"
                 tools:visibility="visible" />
 
-            <org.fossify.commons.views.MyTextView
+            <com.satirr.commons.views.MyTextView
                 android:id="@+id/items_placeholder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
                 android:textStyle="italic"
                 android:visibility="gone" />
 
-            <org.fossify.commons.views.MyTextView
+            <com.satirr.commons.views.MyTextView
                 android:id="@+id/items_placeholder_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -80,20 +80,20 @@
                     android:layout_height="wrap_content"
                     app:supportSwipeToRefresh="true">
 
-                    <org.fossify.commons.views.MyRecyclerView
+                    <com.satirr.commons.views.MyRecyclerView
                         android:id="@+id/items_list"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:clipToPadding="false"
                         android:layoutAnimation="@anim/layout_animation"
                         android:scrollbars="none"
-                        app:layoutManager="org.fossify.commons.views.MyGridLayoutManager" />
+                        app:layoutManager="com.satirr.commons.views.MyGridLayoutManager" />
 
                 </com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller>
             </com.satirr.range.views.MySwipeRefreshLayout>
         </RelativeLayout>
 
-        <org.fossify.commons.views.MyFloatingActionButton
+        <com.satirr.commons.views.MyFloatingActionButton
             android:id="@+id/items_fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -3,11 +3,11 @@ package com.satirr.range.helpers
 import android.app.Activity
 import com.stericson.RootShell.execution.Command
 import com.stericson.RootTools.RootTools
-import org.fossify.commons.extensions.areDigitsOnly
-import org.fossify.commons.extensions.showErrorToast
-import org.fossify.commons.extensions.toast
-import org.fossify.commons.helpers.SORT_BY_SIZE
-import org.fossify.commons.models.FileDirItem
+import com.satirr.commons.extensions.areDigitsOnly
+import com.satirr.commons.extensions.showErrorToast
+import com.satirr.commons.extensions.toast
+import com.satirr.commons.helpers.SORT_BY_SIZE
+import com.satirr.commons.models.FileDirItem
 import com.satirr.range.R
 import com.satirr.range.extensions.config
 import com.satirr.range.models.ListItem

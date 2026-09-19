@@ -2,8 +2,8 @@ package com.satirr.range.dialogs
 
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.isRPlus
+import com.satirr.commons.extensions.*
+import com.satirr.commons.helpers.isRPlus
 import com.satirr.range.R
 import com.satirr.range.activities.SimpleActivity
 import com.satirr.range.databinding.DialogCreateNewBinding

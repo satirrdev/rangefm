@@ -1,4 +1,4 @@
 -dontnote android.net.http.*
 -dontnote org.apache.http.**
--keep class org.fossify.** { *; }
--dontwarn org.fossify.**
+-keep class com.satirr.** { *; }
+-dontwarn com.satirr.**

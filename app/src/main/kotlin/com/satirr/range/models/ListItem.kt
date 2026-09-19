@@ -1,6 +1,6 @@
 package com.satirr.range.models
 
-import org.fossify.commons.models.FileDirItem
+import com.satirr.commons.models.FileDirItem
 
 // isSectionTitle is used only at search results for showing the current folders path
 data class ListItem(

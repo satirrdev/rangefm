@@ -4,14 +4,14 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Environment
 import android.provider.Settings
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.dialogs.ConfirmationAdvancedDialog
-import org.fossify.commons.extensions.hasPermission
+import com.satirr.commons.activities.BaseSimpleActivity
+import com.satirr.commons.dialogs.ConfirmationAdvancedDialog
+import com.satirr.commons.extensions.hasPermission
 import android.net.Uri
-import org.fossify.commons.extensions.showErrorToast
-import org.fossify.commons.extensions.toast
-import org.fossify.commons.helpers.PERMISSION_WRITE_STORAGE
-import org.fossify.commons.helpers.isRPlus
+import com.satirr.commons.extensions.showErrorToast
+import com.satirr.commons.extensions.toast
+import com.satirr.commons.helpers.PERMISSION_WRITE_STORAGE
+import com.satirr.commons.helpers.isRPlus
 import com.satirr.range.R
 
 open class SimpleActivity : BaseSimpleActivity() {

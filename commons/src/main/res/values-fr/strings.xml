@@ -334,9 +334,7 @@
     <string name="undo_changes_confirmation">Voulez-vous vraiment annuler vos modifications \?</string>
     <string name="cannot_be_undone">Cette action ne peut pas être annulée.</string>
     <string name="save_before_closing">Certaines modifications ne sont pas enregistrées. Voulez-vous les enregistrer avant de quitter \?</string>
-    <string name="app_icon_color_warning">Attention : Certains lanceurs peuvent ne pas manipuler correctement la personnalisation de l\'icône d\'application. Si l\'icône disparaît, essayez de lancer l\'application via Google Play ou un widget, si accessible. Après le lancement, restaurer la couleur d\'icône verte par défaut #106D1F. Dans les cas extrêmes, réinstaller l\'application peut être nécessaire.</string>
-    <string name="global_theme_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
-    <string name="light_theme">Clair</string>
+    <string name="app_icon_color_warning">Attention : Certains lanceurs peuvent ne pas manipuler correctement la personnalisation de l\'icône d\'application. Si l\'icône disparaît, essayez de lancer l\'application via Google Play ou un widget, si accessible. Après le lancement, restaurer la couleur d\'icône verte par défaut #106D1F. Dans les cas extrêmes, réinstaller l\'application peut être nécessaire.</string>    <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
     <string name="auto_theme">Automatique</string>
     <string name="auto_light_dark_theme">Clair/Sombre automatique</string>
@@ -843,7 +841,7 @@
     <string name="invite_via">Inviter via</string>
     <string name="donate">Faire un don</string>
     <string name="follow_us">Suivez-nous</string>
-    <string name="copyright">v. %1$s \nDroits d\'auteur © Fossify %2$d</string>
+    <string name="copyright">v. %1$s \nDroits d\'auteur © Range FM %2$d</string>
     <string name="support">Assistance</string>
     <string name="help_us">Aidez-nous</string>
     <string name="social">Réseaux sociaux</string>
@@ -853,15 +851,7 @@
     <string name="about_footer">Codée avec ❤️ en Slovaquie</string>
     <string name="additional_info">Informations supplémentaires</string>
     <string name="app_version">Version de l\'application : %s</string>
-    <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
-    <string name="donate_please"><![CDATA[
-            Bonjour, <br><br>
-j\'espère que vous appréciez l\'application. Elle ne contient pas de publicités, vous pouvez soutenir son développement en achetant l\'appli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. Cela empêchera également cette boite de dialogue de se montrer à nouveau.<br><br>
-            Merci !
-        ]]></string>
-    <string name="purchase">Acheter</string>
-    <string name="update_thank_you">Veuillez mettre à jour Fossify Thank You</string>
-    <string name="before_asking_question_read_faq">Avant de poser une question, veuillez tout d\'abord vérifier les paramètres de l\'application et lire la foire aux questions. Il est possible que la solution s\'y trouve.</string>
+    <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>    <string name="purchase">Acheter</string>    <string name="before_asking_question_read_faq">Avant de poser une question, veuillez tout d\'abord vérifier les paramètres de l\'application et lire la foire aux questions. Il est possible que la solution s\'y trouve.</string>
     <string name="make_sure_latest">Assurez-vous également d\'utiliser la version la plus récente de l\'application.</string>
     <string name="make_sure_upgrade">Notez également que cette version de l\'application n\'est plus développée. Procurez-vous la version \"Pro\" pour bénéficier de nombreuses améliorations.</string>
     <string name="read_it">Consultez-la</string>
@@ -893,11 +883,7 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="music_player_short">Lecteur de musique</string>
     <string name="sms_messenger_short">Messagerie SMS</string>
     <string name="thank_you_short">Merci</string>
-    <string name="voice_recorder_short">Enregistreur vocal</string>
-    <string name="sideloaded_app"><![CDATA[
-            La version de votre application semble corrompue. Merci de télécharger la version originale <a href="%s"> en suivant ce lien</a>.
-        ]]></string>
-    <string name="frequently_asked_questions">Foire aux questions</string>
+    <string name="voice_recorder_short">Enregistreur vocal</string>    <string name="frequently_asked_questions">Foire aux questions</string>
     <string name="before_asking_question">Avant de poser une question, veuillez tout d\'abord consulter la</string>
     <string name="faq_1_title_commons">Comment se fait-il que je ne voie pas ce widget d\'application dans la liste des widgets ?</string>
     <string name="faq_1_text_commons">C\'est probablement parce que vous avez déplacé l\'application sur une carte SD. Dans ce cas, il existe une limitation du système Android qui masque les widgets des applications concernées. La seule solution consiste à déplacer l\'application vers le stockage interne via les paramètres de votre appareil.</string>
@@ -912,7 +898,7 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="faq_7_title_commons">L\'argent a bien été débité de mon compte bancaire, mais je ne peux pas télécharger l\'application. Que puis-je faire \?</string>
     <string name="faq_7_text_commons">Les paiements sont entièrement gérés par Google. Leur système informatique peut parfois se heurter à quelques problèmes. Effacez simplement le cache de votre application \"Google Play\". Ensuite, redémarrez votre appareil. Enfin, téléchargez de nouveau l\'application.</string>
     <string name="faq_8_title_commons">Pourquoi devrais-je passer à la version \"Pro\" \?</string>
-    <string name="faq_8_text_commons">La version de votre application n’étant plus mise à jour, les bogues que vous avez peut-être repérés ne seront jamais corrigés. Il n\'y aura pas non plus de nouvelles fonctions ajoutées. Vous pouvez acheter la version \"Pro\" sur \"Google Play\" à petit prix. Il s\'agit d\'un paiement unique. Ce qui signifie qu\'une fois que vous l\'avez achetée, vous n\'aurez plus jamais à la payer. Pas même après avoir acheté un nouvel appareil. Si jamais vous n\'aimiez pas la version \"Pro\", vous pourrez simplement la désinstaller après quelques heures et votre paiement vous sera automatiquement remboursé. À tout moment, si vous souhaitez un remboursement, contactez-nous simplement à l\'adresse électronique suivante : hello@fossify.org et vous l\'obtiendrez.</string>
+    <string name="faq_8_text_commons">La version de votre application n’étant plus mise à jour, les bogues que vous avez peut-être repérés ne seront jamais corrigés. Il n\'y aura pas non plus de nouvelles fonctions ajoutées. Vous pouvez acheter la version \"Pro\" sur \"Google Play\" à petit prix. Il s\'agit d\'un paiement unique. Ce qui signifie qu\'une fois que vous l\'avez achetée, vous n\'aurez plus jamais à la payer. Pas même après avoir acheté un nouvel appareil. Si jamais vous n\'aimiez pas la version \"Pro\", vous pourrez simplement la désinstaller après quelques heures et votre paiement vous sera automatiquement remboursé. À tout moment, si vous souhaitez un remboursement, contactez-nous simplement à l\'adresse électronique suivante : satirrdev@proton.me et vous l\'obtiendrez.</string>
     <string name="faq_9_title_commons">Comment puis-je sélectionner plusieurs éléments à la fois \?</string>
     <string name="faq_9_text_commons">Il existe plusieurs façons de procéder. La première consiste à démarrer le mode de sélection en appuyant longuement sur un élément, puis à cliquer brièvement sur les autres pour les sélectionner. La deuxième méthode est similaire à la sélection d\'éléments sur un ordinateur avec une souris. Démarrez simplement le mode de sélection en appuyant longuement sur un élément, puis, avec votre doigt toujours vers le bas, faites-le glisser sur d\'autres éléments pour les sélectionner. La troisième façon de sélectionner plusieurs éléments consiste à appuyer longuement sur un élément, puis à appuyer longuement sur un autre. Le reste sera alors sélectionné. Si vous souhaitez sélectionner tous les éléments, appuyez longuement sur un élément, puis cliquez sur le compteur d\'éléments sélectionnés dans le coin supérieur gauche. Cela sélectionnera ou désélectionnera l\'ensemble.</string>
     <string name="faq_10_title_commons">J\'ai acheté l\'application, mais je ne peux pas la télécharger sur un autre appareil.</string>
@@ -1049,12 +1035,12 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
         <item quantity="many">Votre période d\'essai expire dans %d jours.</item>
         <item quantity="other">Votre période d\'essai expire dans %d jours.</item>
     </plurals>
-    <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue à jour. Vous pouvez vous procurer la version \"Pro\" à l\'adresse web suivante : https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : hello@fossify.org et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
+    <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue à jour. Vous pouvez vous procurer la version \"Pro\" à l\'adresse web suivante : https://play.google.com/store/apps/details?id=com.satirr..xxx.pro</string>
+    <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : satirrdev@proton.me et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
     <string name="developer_description">Une suite d\'applications Android simples, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
     <string name="contributors_label"><![CDATA[
-            Cette liste contient toutes les personnes qui ont sensiblement contribué à une application de la suite Fossify, pas seulement celle-ci. Les traductions sont assurées par des bénévoles,
-            faites-nous savoir si vous souhaitez aider aussi. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.
+            Cette liste contient toutes les personnes qui ont sensiblement contribué à une application de la suite Range FM, pas seulement celle-ci. Les traductions sont assurées par des bénévoles,
+            faites-nous savoir si vous souhaitez aider aussi. Le guide de traduction se trouve sur <a href="https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site web</a>, ou contactez-nous simplement à <a href="mailto:satirrdev@proton.me">satirrdev@proton.me</a> si vous avez des questions.
             Merci à tous les contributeurs et tous ceux qui nous soutiennent !
         ]]></string>
     <string name="notes">Notes</string>
@@ -1069,23 +1055,14 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="album">Album</string>
     <string name="genre">Genre</string>
     <string name="exif">EXIF</string>
-    <string name="altitude">Altitude</string>
-    <string name="apply_to_all_apps">Appliquer le thème à toutes les applications Fossify</string>
-    <string name="shared_theme_note">Notez que même si vous utilisez la version Pro de l\'application, vous avez toujours besoin de Fossify Thank You pour des raisons techniques. Il s\'occupe de la synchronisation des couleurs.</string>
-    <string name="extension">Extension</string>
+    <string name="altitude">Altitude</string>    <string name="extension">Extension</string>
     <string name="minutes_raw">minutes</string>
     <string name="seconds_letter">%ds</string>
-    <string name="hours_letter">%dh</string>
-    <string name="purchase_simple_thank_you">Acheter Fossify Thank You</string>
-    <string name="widgets">Widgets</string>
+    <string name="hours_letter">%dh</string>    <string name="widgets">Widgets</string>
     <string name="contacts_tab">Contacts</string>
     <string name="usb">USB</string>
     <string name="saturday_letter">S</string>
-    <string name="version_placeholder">Version %s</string>
-    <string name="donate_new">Bonjour,&lt;br&gt;&lt;br&gt;Nous espérons que vous appréciez l\'application. Elle ne contient aucune publicité et nous ne collectons pas non plus vos données. Prière de soutenir son développement en achetant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Vous disposerez également de toutes les fonctionnalités de l\'application, y compris la personnalisation des couleurs.&lt;br&gt;&lt;br&gt;Merci !</string>
-    <string name="donate_short">Soutenez-nous en achetant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, s\'il vous plaît ! Cela débloquera également toutes les fonctionnalités de l\'application, y compris la personnalisation des couleurs.</string>
-    <string name="features_locked">Cette fonctionnalité est verrouillée. Achetez s\'il vous plait &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; pour déverrouiller l\'application complète.&lt;br &gt;&lt;br&gt;Il s\'agit d\'un paiement unique et si vous n\'êtes pas satisfait, nous pouvons vous rembourser.</string>
-    <string name="contacts_short">Contacts</string>
+    <string name="version_placeholder">Version %s</string>    <string name="contacts_short">Contacts</string>
     <string name="notes_short">Notes</string>
     <string name="faq_6_text_commons">Ce problème survient lorsque votre lanceur ne prend pas totalement en charge la personnalisation des icônes. Essayez de lancer l\'application via Google Play ou un widget, s\'il est accessible. Après le lancement, rétablissez la couleur verte par défaut de l\'icône #106D1F. Dans les cas extrêmes, il peut être nécessaire de réinstaller l\'application.</string>
     <string name="translation_bengali">Bengali</string>
@@ -1093,20 +1070,16 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="translation_hindi">Hindi</string>
     <string name="faq_2_text_commons"><![CDATA[
             Oui bien sûr. Vous pouvez nous aider en partageant les applications ou en laissant des notes et commentaires positifs. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue, ou simplement en mettant à jour certaines traductions existantes.
-            Le guide de traduction se trouve sur <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>ce site Web</a>, ou contactez-nous simplement à <a href=mailto:hello@fossify.org>hello@fossify.org</a> si vous avez des questions.
+            Le guide de traduction se trouve sur <a href=https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file>ce site Web</a>, ou contactez-nous simplement à <a href=mailto:satirrdev@proton.me>satirrdev@proton.me</a> si vous avez des questions.
         ]]></string>
     <string name="translation_catalan">Catalan</string>
     <string name="translation_basque">Basque</string>
-    <string name="translation_tamil">Tamil</string>
-    <string name="donate_to_fossify">Faire un don à Fossify</string>
-    <string name="format_phone_numbers">Formater les numéros de téléphone</string>
+    <string name="translation_tamil">Tamil</string>    <string name="format_phone_numbers">Formater les numéros de téléphone</string>
     <string name="platforms">Plates-formes</string>
     <string name="cryptocurrency">Crypto-monnaie</string>
     <string name="little_to_no_fee">Peu ou pas de frais</string>
     <string name="known_issues">Problèmes connus</string>
-    <string name="theme_and_colors">Thème &amp; couleurs</string>
-    <string name="all_fossify_apps">Toutes les applications Fossify</string>
-    <string name="translation_belarusian">Biélorusse</string>
+    <string name="theme_and_colors">Thème &amp; couleurs</string>    <string name="translation_belarusian">Biélorusse</string>
     <string name="fee_up_to_pct">Jusqu\'à %1$d%% de frais</string>
     <string name="translation_central_kurdish">Kurdes du centre</string>
     <string name="translation_chuvash">Tchouvache</string>
@@ -1118,12 +1091,8 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="confirm_storage_access_restricted_text">Des restrictions du système font que ce dossier n\'est pas autorisé.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Ouvrir dans l\'application système</string>
     <string name="confirm_storage_access_restricted_text_not_found">Aucune application système de gestionnaire de fichier trouvée.</string>
-    <string name="days_letter">%dj</string>
-    <string name="more_fossify_apps">Plus d\'applications Fossify</string>
-    <string name="rate_this_app">Évaluer cette appli</string>
-    <string name="evalex_title">EvalEx (évaluation d\'une expression mathématique)</string>
-    <string name="requires_fossify_thank_you">Nécessite Fossify Thank You</string>
-    <string name="enables_more_customization">Permettre plus de personnalisation</string>
+    <string name="days_letter">%dj</string>    <string name="rate_this_app">Évaluer cette appli</string>
+    <string name="evalex_title">EvalEx (évaluation d\'une expression mathématique)</string>    <string name="enables_more_customization">Permettre plus de personnalisation</string>
     <string name="translation_latvian">Estonien</string>
     <plurals name="files_saved">
         <item quantity="one">Fichier enregistré avec succès</item>

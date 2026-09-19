@@ -1,7 +1,7 @@
 package com.satirr.range.activities
 
 import android.content.Intent
-import org.fossify.commons.activities.BaseSplashActivity
+import com.satirr.commons.activities.BaseSplashActivity
 
 class SplashActivity : BaseSplashActivity() {
     override fun initActivity() {

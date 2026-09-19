@@ -38,7 +38,7 @@
             app:showDelay="250"
             tools:visibility="visible" />
 
-        <org.fossify.commons.views.MyTextView
+        <com.satirr.commons.views.MyTextView
             android:id="@+id/search_placeholder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             android:textStyle="italic"
             android:visibility="gone" />
 
-        <org.fossify.commons.views.MyTextView
+        <com.satirr.commons.views.MyTextView
             android:id="@+id/search_placeholder_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
             android:textStyle="italic"
             android:visibility="gone" />
 
-        <org.fossify.commons.views.MyRecyclerView
+        <com.satirr.commons.views.MyRecyclerView
             android:id="@+id/search_results_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -78,7 +78,7 @@
             android:layoutAnimation="@anim/layout_animation"
             android:paddingTop="@dimen/small_margin"
             android:scrollbars="none"
-            app:layoutManager="org.fossify.commons.views.MyGridLayoutManager" />
+            app:layoutManager="com.satirr.commons.views.MyGridLayoutManager" />
 
     </RelativeLayout>
 </com.satirr.range.fragments.StorageFragment>

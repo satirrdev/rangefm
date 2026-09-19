@@ -2,13 +2,13 @@ package com.satirr.range.activities
 
 import android.content.Intent
 import android.os.Bundle
-import org.fossify.commons.dialogs.ChangeDateTimeFormatDialog
-import org.fossify.commons.dialogs.ConfirmationDialog
-import org.fossify.commons.dialogs.RadioGroupDialog
-import org.fossify.commons.dialogs.SecurityDialog
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.*
-import org.fossify.commons.models.RadioItem
+import com.satirr.commons.dialogs.ChangeDateTimeFormatDialog
+import com.satirr.commons.dialogs.ConfirmationDialog
+import com.satirr.commons.dialogs.RadioGroupDialog
+import com.satirr.commons.dialogs.SecurityDialog
+import com.satirr.commons.extensions.*
+import com.satirr.commons.helpers.*
+import com.satirr.commons.models.RadioItem
 import com.satirr.range.R
 import com.satirr.range.databinding.ActivitySettingsBinding
 import com.satirr.range.dialogs.ManageVisibleTabsDialog

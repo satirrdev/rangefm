@@ -2,8 +2,8 @@ package com.satirr.range.extensions
 
 import android.content.Context
 import android.os.storage.StorageManager
-import org.fossify.commons.extensions.isPathOnOTG
-import org.fossify.commons.extensions.isPathOnSD
+import com.satirr.commons.extensions.isPathOnOTG
+import com.satirr.commons.extensions.isPathOnSD
 import com.satirr.range.helpers.Config
 import com.satirr.range.helpers.PRIMARY_VOLUME_NAME
 import java.util.Locale

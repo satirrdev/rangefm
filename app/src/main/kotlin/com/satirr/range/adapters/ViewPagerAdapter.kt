@@ -5,10 +5,10 @@ import android.media.RingtoneManager
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager.widget.PagerAdapter
-import org.fossify.commons.extensions.getProperTextColor
-import org.fossify.commons.helpers.TAB_FILES
-import org.fossify.commons.helpers.TAB_RECENT_FILES
-import org.fossify.commons.helpers.TAB_STORAGE_ANALYSIS
+import com.satirr.commons.extensions.getProperTextColor
+import com.satirr.commons.helpers.TAB_FILES
+import com.satirr.commons.helpers.TAB_RECENT_FILES
+import com.satirr.commons.helpers.TAB_STORAGE_ANALYSIS
 import com.satirr.range.R
 import com.satirr.range.activities.SimpleActivity
 import com.satirr.range.extensions.config

@@ -8,9 +8,9 @@ import androidx.appcompat.widget.AppCompatEditText
 import com.alexvasilkov.gestures.GestureController
 import com.alexvasilkov.gestures.State
 import com.alexvasilkov.gestures.views.interfaces.GestureView
-import org.fossify.commons.extensions.getProperPrimaryColor
-import org.fossify.commons.extensions.getProperTextColor
-import org.fossify.commons.extensions.onGlobalLayout
+import com.satirr.commons.extensions.getProperPrimaryColor
+import com.satirr.commons.extensions.getProperTextColor
+import com.satirr.commons.extensions.onGlobalLayout
 import com.satirr.range.extensions.config
 
 // inspired by

@@ -11,11 +11,11 @@ plugins {
     `maven-publish`
 }
 
-group = "org.fossify"
+group = "com.satirr"
 version = findProperty("VERSION")?.toString() ?: System.getenv("VERSION") ?: "1.0.0"
 
 android {
-    namespace = "org.fossify.commons"
+    namespace = "com.satirr.commons"
 
     compileSdk = libs.versions.app.build.compileSDKVersion.get().toInt()
 

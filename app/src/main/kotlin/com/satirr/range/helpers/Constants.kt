@@ -1,9 +1,9 @@
 package com.satirr.range.helpers
 
-import org.fossify.commons.helpers.TAB_FILES
-import org.fossify.commons.helpers.TAB_RECENT_FILES
-import org.fossify.commons.helpers.TAB_STORAGE_ANALYSIS
-import org.fossify.commons.models.FileDirItem
+import com.satirr.commons.helpers.TAB_FILES
+import com.satirr.commons.helpers.TAB_RECENT_FILES
+import com.satirr.commons.helpers.TAB_STORAGE_ANALYSIS
+import com.satirr.commons.models.FileDirItem
 import com.satirr.range.models.ListItem
 
 const val MAX_COLUMN_COUNT = 15

@@ -334,13 +334,7 @@
     <string name="undo_changes">Vrátiť zmeny</string>
     <string name="undo_changes_confirmation">Ste si istý, že chcete vrátiť zmeny?</string>
     <string name="cannot_be_undone">Táto akcia sa nedá vrátiť späť.</string>
-    <string name="save_before_closing">Máte neuložené zmeny. Chcete ich uložiť pred ukončením?</string>
-    <string name="global_theme_success">Farby boli úspešne aktualizované. Bola pridaná nová \'Zdieľaná\' téma, prosím použite ju pri ďalšej úprave farieb.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!
-        ]]></string>
-    <string name="light_theme">Svetlá</string>
-    <string name="dark_theme">Tmavá</string>
+    <string name="save_before_closing">Máte neuložené zmeny. Chcete ich uložiť pred ukončením?</string>    <string name="dark_theme">Tmavá</string>
     <string name="auto_theme">Automatická</string>
     <string name="auto_light_dark_theme">Automatická svetlá / tmavá</string>
     <string name="solarized">Solarizovaná</string>
@@ -819,15 +813,7 @@
     <string name="about_footer">Vyrobené zo ❤️ na Slovensku</string>
     <string name="additional_info">Dodatočné informácie</string>
     <string name="app_version">Verzia aplikácie: %s</string>
-    <string name="device_os">Operačný systém zariadenia: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Zdravím,<br><br>
-            dúfam, že sa vám moja apka páči. Neobsahuje žiadne reklamy, podporte prosím jej vývoj zakúpením aplikácie <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Jednoduché ďakujem</a>. Zaručí to aj to, že tento dialóg už neuvidíte.<br><br>
-            Ďakujem!
-        ]]>
-    </string>
-    <string name="purchase">Zakúpiť</string>
+    <string name="device_os">Operačný systém zariadenia: %s</string>    <string name="purchase">Zakúpiť</string>
     <string name="before_asking_question_read_faq">Predtým, ako sa niečo opýtate, si prosím prejdite nastavenia aplikácie a prečítajte Často Kladené Otázky. Možno v nich nájdete svoju odpoveď.</string>
     <string name="make_sure_latest">Taktiež sa uistite, že používate najnovšiu verziu apky.</string>
     <string name="make_sure_upgrade">Taktiež vám dávame na vedomie, že táto verzia apky už nie je vyvíjaná. Pre množstvo vylepšení prejdite na Pro verziu.</string>
@@ -863,13 +849,7 @@
     <string name="notes_short">Poznámky</string>
     <string name="sms_messenger_short">SMS správy</string>
     <string name="thank_you_short">Ďakujem</string>
-    <string name="voice_recorder_short">Nahrávač zvuku</string>
-    <string name="sideloaded_app">
-        <![CDATA[
-            Zdá sa, že vaša verzia apky je poškodená. Prosím stiahnite originálnu verziu <a href="%s">odtiaľ</a>.
-        ]]>
-    </string>
-    <string name="frequently_asked_questions">Často kladené otázky</string>
+    <string name="voice_recorder_short">Nahrávač zvuku</string>    <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Predtým, ako sa niečo opýtate si prosíme preštudujte</string>
     <string name="faq_1_title_commons">Prečo nevidím widget tejto apky na zozname widgetov?</string>
     <string name="faq_1_text_commons">Je to pravdepodobne spôsobené tým, že ste apku presunuli na SD kartu. Ide o systémové obmedzenie, ktoré v tomto prípade skryje widget apky.
@@ -878,7 +858,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Áno, samozrejme. Môžete napr. šíriť apky medzi známymi, alebo nám poslať užitočnú odozvu a hodnotenia. Viete pomôcť aj preložením apiek do nových jazykov, alebo upraviť existujúce preklady.
-            Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo nám v prípade potreby napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+            Návod na prekladanie je na <a href="https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo nám v prípade potreby napíšte na <a href="mailto:satirrdev@proton.me">satirrdev@proton.me</a>.
         ]]>
     </string>
     <string name="faq_3_title_commons">Náhodou som vymazal niektoré súbory, viem ich obnoviť?</string>
@@ -893,7 +873,7 @@
     <string name="faq_8_title_commons">Prečo by som si mal stiahnuť Pro verziu?</string>
     <string name="faq_8_text_commons">Keďže táto verzia aplikácie už nebude aktualizovaná, chyby, ktoré ste možno našli, nebudú nikdy opravené. Taktiež už nepribudnú žiadne nové funkcie. Pro verziu si viete kúpiť lacno na Google Play.
         Ide o jednorázovú platbu, čo znamená, že ak ju raz zaplatíte, už nikdy nebudete musieť platiť nič. Ani vtedy, ak si kúpite nové zariadenie. Ak sa vám Pro verzia nebude páčiť, môžete ju do pár hodín odinštalovať a peniaze vám budú automaticky vrátené.
-        Ak budete chcieť vrátiť apku kedykoľvek neskôr, stačí, ak nám napíšete na hello@fossify.org a peniaze vám vrátime.</string>
+        Ak budete chcieť vrátiť apku kedykoľvek neskôr, stačí, ak nám napíšete na satirrdev@proton.me a peniaze vám vrátime.</string>
     <string name="faq_9_title_commons">Akým spôsobom viem naraz označiť viacero položiek?</string>
     <string name="faq_9_text_commons">Existuje viacero spôsobov. Prvým je aktivovanie označovacieho módu dlhým podržaním jednej položky, následne viete označiť ďalšie krátkymi ťuknutiami. Druhý spôsob je podobný označovaniu položiek myšou na PC. Dlhým podržaním označte jednu položku a bez dvihnutia prsta
         ho potiahnite cez ďalšie položky, to ich označí. Tretím spôsobom je dlhé podržanie jednej položky, následne dlhé podržanie inej položky. Označí to všetko medzi týmito 2 položkami. Ak chcete označiť všetko, aktivujte označovací mód dlhým podržaním jednej položky,
@@ -906,8 +886,8 @@
     <string name="other_help">Iná pomoc</string>
     <string name="contributors_label">
         <![CDATA[
-            Tento zoznam obsahuje každého, kto citeľne pomohol ktorejkoľvek apke z celej sady Fossify, nie iba tejto apke. Preklady sú spracovávané dobrovoľníkmi,
-            dajte nám vedieť, ak chcete pomôcť tiež. Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo ak máte nejaké otázky, tak nám jednoducho napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+            Tento zoznam obsahuje každého, kto citeľne pomohol ktorejkoľvek apke z celej sady Range FM, nie iba tejto apke. Preklady sú spracovávané dobrovoľníkmi,
+            dajte nám vedieť, ak chcete pomôcť tiež. Návod na prekladanie je na <a href="https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo ak máte nejaké otázky, tak nám jednoducho napíšte na <a href="mailto:satirrdev@proton.me">satirrdev@proton.me</a>.
             Ďakujeme všetkým prispievateľom a iným podporovateľom!
         ]]>
     </string>
@@ -1036,8 +1016,8 @@
         <item quantity="few">Vaša skúšobná doba uplynie o %d dni.</item>
         <item quantity="other">Vaša skúšobná doba uplynie o %d dní.</item>
     </plurals>
-    <string name="deprecated_app">ZASTARALÁ: Táto verzia aplikácie už nie je podporovaná. Stiahnite si Pro verziu na https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na hello@fossify.org. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>
+    <string name="deprecated_app">ZASTARALÁ: Táto verzia aplikácie už nie je podporovaná. Stiahnite si Pro verziu na https://play.google.com/store/apps/details?id=com.satirr..xxx.pro</string>
+    <string name="pro_app_refund">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na satirrdev@proton.me. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>
     <string name="developer_description">Skupina jednoduchých, open source Android apiek s nastaviteľnými widgetmi, bez reklám a nepotrebných oprávnení.</string>
     <string name="ok">OK</string>
     <string name="audio">Zvuk</string>
@@ -1048,22 +1028,14 @@
     <string name="confirm_storage_access_restricted_text_open_system">Otvoriť v systémovej aplikácii</string>
     <string name="confirm_storage_access_restricted_text_not_found">Nepodarilo sa nájsť systémového správcu súborov.</string>
     <string name="album">Album</string>
-    <string name="exif">EXIF</string>
-    <string name="apply_to_all_apps">Použiť tieto farby na všetky aplikácie Fossify</string>
-    <string name="app_icon_color_warning">Upozornenie: V niektorých spúšťačoch môže prispôsobenie ikony spôsobiť problémy. Ak by ikona zmizla, skúste spustiť aplikáciu cez Google Play alebo widget, ak je to možné. Po spustení znovu obnovte pôvodnú zelenú farbu ikony #106D1F. V extrémnych prípadoch môže byť potrebné aplikáciu odinštalovať a znovu nainštalovať.</string>
-    <string name="shared_theme_note">Upozornenie: Napriek tomu, že používate Pro verziu aplikácie, potrebujete aplikáciu Fossify Thank You (Ďakujem) z technických dôvodov. Táto aplikácia sa stará o synchronizáciu farieb.</string>
-    <string name="number_of_items">Počet položiek</string>
+    <string name="exif">EXIF</string>    <string name="app_icon_color_warning">Upozornenie: V niektorých spúšťačoch môže prispôsobenie ikony spôsobiť problémy. Ak by ikona zmizla, skúste spustiť aplikáciu cez Google Play alebo widget, ak je to možné. Po spustení znovu obnovte pôvodnú zelenú farbu ikony #106D1F. V extrémnych prípadoch môže byť potrebné aplikáciu odinštalovať a znovu nainštalovať.</string>    <string name="number_of_items">Počet položiek</string>
     <string name="reorder_items_by_dragging">Poradie položiek zmeníte potiahnutím</string>
     <string name="pin">PIN</string>
     <string name="seconds_letter">%ds</string>
     <string name="minutes_letter">%dm</string>
     <string name="hours_letter">%dh</string>
     <string name="days_letter">%dd</string>
-    <string name="week_number_short">týž.</string>
-    <string name="purchase_simple_thank_you">Kúpiť Fossify Ďakujem</string>
-    <string name="requires_fossify_thank_you">Vyžaduje Fossify Ďakujem</string>
-    <string name="theme_and_colors">Motív a farby</string>
-    <string name="text">Text</string>
+    <string name="week_number_short">týž.</string>    <string name="text">Text</string>
     <string name="usb">USB</string>
     <string name="august">August</string>
     <string name="september">September</string>
@@ -1078,18 +1050,8 @@
     <string name="november_short">Nov</string>
     <string name="december_short">Dec</string>
     <string name="saturday_letter">S</string>
-    <string name="known_issues">Známe problémy</string>
-    <string name="more_fossify_apps">Ďalšie aplikácie Fossify</string>
-    <string name="rate_this_app">Ohodnoťte túto aplikáciu</string>
-    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
-    <string name="donate_new">Dobrý deň,&lt;br&gt;&lt;br&gt;dúfame, že sa Vám páči táto aplikácia. Neobsahuje žiadne reklamy a nezbiera žiadne Vaše údaje, prosím podporte jej vývoj zakúpením &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Ďakujem&lt;/a&gt;. Odomknete tým všetky funkcie aplikácie vrátane prispôsobenia farieb.&lt;br&gt;&lt;br&gt;Ďakujeme!</string>
-    <string name="donate_short">Prosím, podporte nás zakúpením &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You (Ďakujem)&lt;/a&gt;. Odomknú sa vám taktiež všetky funkcie aplikácií vrátane úpravy farieb.</string>
-    <string name="update_thank_you">Prosím aktualizujte Fossify Ďakujem na najnovšiu verziu</string>
-    <string name="features_locked">Táto funkcia je zamknutá, prosím, zakúpte si &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You (Ďakujem)&lt;/a&gt; pre odomknutie všetkých funkcií aplikácie.&lt;br&gt;&lt;br&gt;Je to jednorazová kúpa; ak nebudete spokojní, vieme vám vrátiť peniaze.</string>
-    <string name="all_fossify_apps">Všetky Fossify aplikácie</string>
-    <string name="donate_to_fossify">Prispieť projektu Fossify</string>
-    <string name="platforms">Platformy</string>
-    <string name="little_to_no_fee">Malý alebo žiadny poplatok</string>
+    <string name="known_issues">Známe problémy</string>    <string name="rate_this_app">Ohodnoťte túto aplikáciu</string>
+    <string name="copyright">v %1$s\nCopyright © Range FM %2$d</string>    <string name="little_to_no_fee">Malý alebo žiadny poplatok</string>
     <string name="fee_up_to_pct">Poplatok až %1$d%%</string>
     <string name="cryptocurrency">Kryptomena</string>
     <string name="faq_6_text_commons">Tento problém nastane, ak váš launcher (spúšťač) nie celkom podporuje prispôsobenie ikon. Skúste otvoriť aplikáciu cez Google Play alebo miniaplikáciu (widget), ak je to možné. Po spustení obnovte predvolenú zelenú farbu ikony #106D1F. V extrémnych prípadoch môže byť potrebné aplikáciu preinštalovať.</string>

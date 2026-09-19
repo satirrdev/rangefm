@@ -415,9 +415,7 @@
     <string name="altitude">Alto</string>
     <string name="remove_exif_confirmation">Ĉu vi vere volas forigi la EXIF-datumojn kiel la GPS-koordinatoj, kameramodelo ktp.?</string>
     <string name="exif_removed">EXIF-datumoj sukcese forigitaj</string>
-    <string name="change_color">Ŝanĝi koloron</string>
-    <string name="shared_theme_note">Rimarku ke kvankam vi uzas la version Pro de la aplikaĵo, vi bezonas Fossify Dankon pro teknikaj kialoj. Ĝi ebligas la sinkronigadon de koloroj.</string>
-    <string name="restore_defaults">Restaŭri defaŭltojn</string>
+    <string name="change_color">Ŝanĝi koloron</string>    <string name="restore_defaults">Restaŭri defaŭltojn</string>
     <string name="custom">Laŭmenda</string>
     <string name="system_default">Sistema defaŭlto</string>
     <string name="use_default">Uzi defaŭlton</string>
@@ -432,11 +430,7 @@
     <string name="undo_changes">Malfari ŝanĝojn</string>
     <string name="undo_changes_confirmation">Ĉu vi vere volas malfari viajn ŝanĝojn?</string>
     <string name="cannot_be_undone">Oni ne povas malfari tiun ĉi akcion.</string>
-    <string name="save_before_closing">Estas nekonservitaj ŝanĝoj. Ĉu konservi ilin antaŭ eliri?</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Bonvolu aĉeti <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a> por uzi ĉi tiun funkcion kaj subteni la programadon. Dankon!
-        ]]></string>
-    <string name="light_theme">Hela</string>
+    <string name="save_before_closing">Estas nekonservitaj ŝanĝoj. Ĉu konservi ilin antaŭ eliri?</string>    <string name="light_theme">Hela</string>
     <string name="dark_theme">Malhela</string>
     <string name="auto_theme">Aŭtomata</string>
     <string name="auto_light_dark_theme">Aŭtomata (mal)hela</string>
@@ -446,11 +440,7 @@
     <string name="black_white">Blanko kaj nigro</string>
     <string name="shared">Komuna</string>
     <string name="whats_new">Novaĵoj</string>
-    <string name="whats_new_disclaimer">* nur la plej grandaj ĝisdatigoj aperas ĉi tie, sed ĉiam ankaŭ estas malpli grandaj plibonigoj</string>
-    <string name="global_theme_success">La aktuala etoso estis sukcese aplikata al ĉiuj aplikaĵoj de Fossify. De nun, ŝanĝoj al tiu ĉi etoso estos aŭtomate sinkronigitaj.</string>
-    <string name="app_icon_color_warning">Atentu: Kelkaj lanĉiloj eble ne traktos ĝuste la tajloradon de aplikaĵaj bildsimboloj. Se la bildsimbolo malaperas, provu lanĉi la aplikaĵon per Google Play aŭ fenestraĵo, se tio eblas. Post lanĉi ĝin, restaŭru la defaŭltan verdan koloron #106D1F de la bildsimbolo. En ekstremaj kazoj, eble endos reinstali la aplikaĵon.</string>
-    <string name="apply_to_all_apps">Apliki etoson al ĉiuj aplikaĵoj de Fossify</string>
-    <string name="faq_6_text_commons">Tiu ĉi problemo aperas kiam via lanĉilo ne tute subtenas la tajloradon de bildsimboloj. Provu lanĉi la aplikaĵon per Google Play aŭ fenestraĵo, se tio eblas. Post lanĉi ĝin, restaŭru la defaŭltan verdan koloron #106D1F de la bildsimbolo. En ekstremaj kazoj, eble endos reinstali la aplikaĵon.</string>
+    <string name="whats_new_disclaimer">* nur la plej grandaj ĝisdatigoj aperas ĉi tie, sed ĉiam ankaŭ estas malpli grandaj plibonigoj</string>    <string name="app_icon_color_warning">Atentu: Kelkaj lanĉiloj eble ne traktos ĝuste la tajloradon de aplikaĵaj bildsimboloj. Se la bildsimbolo malaperas, provu lanĉi la aplikaĵon per Google Play aŭ fenestraĵo, se tio eblas. Post lanĉi ĝin, restaŭru la defaŭltan verdan koloron #106D1F de la bildsimbolo. En ekstremaj kazoj, eble endos reinstali la aplikaĵon.</string>    <string name="faq_6_text_commons">Tiu ĉi problemo aperas kiam via lanĉilo ne tute subtenas la tajloradon de bildsimboloj. Provu lanĉi la aplikaĵon per Google Play aŭ fenestraĵo, se tio eblas. Post lanĉi ĝin, restaŭru la defaŭltan verdan koloron #106D1F de la bildsimbolo. En ekstremaj kazoj, eble endos reinstali la aplikaĵon.</string>
     <string name="maximum_share_reached">Ne eblas kunhavigi tiom ĉi da enhavo samtempe</string>
     <string name="send_email">Sendi retmesaĝon</string>
     <string name="call">Alvoki</string>
@@ -699,9 +689,7 @@
     <string name="show_hidden_items">Montri kaŝitajn elementojn</string>
     <string name="notification_sound">Sciigosono</string>
     <string name="customize_colors">Tajlori aspekton</string>
-    <string name="during_day_at">Dum la tago je %1$02d:%2$02d</string>
-    <string name="purchase_simple_thank_you">Aĉeti Fossify Dankon</string>
-    <string name="no_reminder">Neniu memorigilo</string>
+    <string name="during_day_at">Dum la tago je %1$02d:%2$02d</string>    <string name="no_reminder">Neniu memorigilo</string>
     <string name="alarm_warning">Bonvolu certigi, ke la alarmo ĝuste funkcias antaŭ dependi de ĝi. Ĝi povus misfunkcii pro sistemaj limigoj ligitaj al la konservado de la baterio.</string>
     <string name="alarm">Alarmo</string>
     <string name="snooze">Daŭrigi</string>
@@ -868,27 +856,14 @@
     <string name="read_faq">Legi oftajn demandojn</string>
     <string name="make_sure_latest">Certigu ankaŭ, ke vi uzas la plej aktualan version de la aplikaĵo.</string>
     <string name="email_label">Sendu viajn komentojn aŭ sugestojn al</string>
-    <string name="copyright">v %1$s\nKopirajto © Fossify %2$d</string>
+    <string name="copyright">v %1$s\nKopirajto © Range FM %2$d</string>
     <string name="social">Sociaj retejoj</string>
-    <string name="privacy_policy">Privateca politiko</string>
-    <string name="donate_short">Bonvolu subteni nin per aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.</string>
-    <string name="update_thank_you">Bonvolu ĝisdatigi Fossify Dankon al la plej nova versio</string>
-    <string name="before_asking_question_read_faq">Antaŭ fari demandon, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. La solvo eble estos tie.</string>
-    <string name="make_sure_upgrade">Rimarku ankaŭ, ke tiu ĉi versio de la aplikaĵo ne plu estas ĝisdatigita. Uzu la version Pro por multe da plibonigoj.</string>
+    <string name="privacy_policy">Privateca politiko</string>    <string name="make_sure_upgrade">Rimarku ankaŭ, ke tiu ĉi versio de la aplikaĵo ne plu estas ĝisdatigita. Uzu la version Pro por multe da plibonigoj.</string>
     <string name="read_it">Legi</string>
-    <string name="website_label">Por fontkodo, iru al</string>
-    <string name="donate_please"><![CDATA[
-            Saluton,<br><br>
-            Mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon, do bonvolu subteni ĝian programadon per aĉeti la aplikaĵon <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a>, kiu ankaŭ evitos, ke tiu ĉi dialogo aperu denove.<br><br>
-            Dankon!
-        ]]></string>
-    <string name="donate_new">Saluton,&lt;br&gt;&lt;br&gt;mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon kaj ni nek kolektas viajn datumojn. Bonvolu subteni ĝian programadon per aĉeti la aplikaĵon &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.&lt;br&gt;&lt;br&gt;Dankon!</string>
-    <string name="known_issues">Konataj problemoj</string>
+    <string name="website_label">Por fontkodo, iru al</string>    <string name="known_issues">Konataj problemoj</string>
     <string name="keyboard_short">Klavaro</string>
     <string name="thank_you">Dankon</string>
-    <string name="widget_locked_pro">Tiu ĉi fenestraĵo estas ŝlosita.\nBonvolu promociiĝi al la versio Pro por malŝlosi ĝin.</string>
-    <string name="features_locked">Tiu ĉi funkcio estas ŝlosita. Bonvolu aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt; por malŝlosi la tutan aplikaĵon.&lt;br&gt;&lt;br&gt;Estas nur unufoja pago, kaj se vi ne kontentas, ni povas repagi vin.</string>
-    <string name="new_app"><![CDATA[
+    <string name="widget_locked_pro">Tiu ĉi fenestraĵo estas ŝlosita.\nBonvolu promociiĝi al la versio Pro por malŝlosi ĝin.</string>    <string name="new_app"><![CDATA[
             He,<br><br>
             Ni nur sciigas vin, ke ni lastatempe eldonis kelkajn novajn aplikaĵojn:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -902,13 +877,7 @@
     <string name="flashlight_short">Lanterno</string>
     <string name="dialer_short">Ciferilo</string>
     <string name="draw_short">Desegno</string>
-    <string name="sms_messenger_short">SMS-mesaĝilo</string>
-    <string name="sideloaded_app"><![CDATA[
-            Ŝajnas, ke la versio de via aplikaĵo estas difektita. Bonvolu elŝuti la originan version <a href="%s">ĉi tie</a>.
-        ]]></string>
-    <string name="donate_to_fossify">Donaci al Fossify</string>
-    <string name="all_fossify_apps">Ĉiuj aplikaĵoj de Fossify</string>
-    <string name="voice_recorder_short">Sonregistrilo</string>
+    <string name="sms_messenger_short">SMS-mesaĝilo</string>    <string name="voice_recorder_short">Sonregistrilo</string>
     <string name="before_asking_question">Antaŭ fari demandon, bonvolu legi la</string>
     <string name="faq_1_title_commons">Kial mi ne vidas la fenestraĵon de tiu ĉi aplikaĵo en la listo de fenestraĵoj?</string>
     <string name="faq_1_text_commons">Probablas, ke vi movis la aplikaĵon en SD-karton. Estas sistema limigo de Android kiu tiukaze kaŝas la fenestraĵojn de tiu aplikaĵo. La nura solvo estas removi la aplikaĵon en la internan memoron per la sistemaj agordoj.</string>
@@ -919,7 +888,7 @@
     <string name="cryptocurrency">Ĉifrovaluto</string>
     <string name="faq_2_text_commons"><![CDATA[
             Jes, kompreneble. Vi povus mencii niajn aplikaĵojn al aliuloj, bone taksi ilin aŭ doni al ni utilajn komentojn. Vi ankaŭ povus helpi nin traduki la aplikaĵojn en novan lingvon aŭ simple ĝisdatigi tiujn kiuj jam ekzistas.
-            La tradukada gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
+            La tradukada gvido troviĝas <a href="https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:satirrdev@proton.me">satirrdev@proton.me</a> se vi havas demandojn.
         ]]></string>
     <string name="faq_3_title_commons">Mi senvole forigis kelkajn dosierojn. Kiel mi povas restaŭri ilin?</string>
     <string name="faq_8_title_commons">Kial mi devus promociiĝi al la versio Pro?</string>
@@ -932,7 +901,7 @@
     <string name="faq_7_title_commons">La mono estis prenita el mi bankokonto, sed mi ne povas elŝuti la aplikaĵon. Kion povas mi fari?</string>
     <string name="faq_7_text_commons">Pagoj estas tute traktitaj pro Google, kies sistemo fojfoje misfunkcias. Simple viŝu la aplikaĵan kaŝon de Google Play, restartigu vian aparaton, kaj provu elŝuti ĝin denove.</string>
     <string name="faq_5_text_commons">Se vi vere forigis ilin, ne eblas restaŭri ilin. Tamen, la rubujo defaŭlte estas ŝaltita kaj movas la dosierojn al la rubujo anstataŭ tuje forigi ilin.</string>
-    <string name="faq_8_text_commons">Ĉar la versio de via aplikaĵo ne plu estos ĝisdatigita, la cimoj kiujn vi eble rimarkis neniam estos korektitaj, nek estos aldonita iu ajn nova funkcio. Vi povas aĉeti la version Pro je Google Play pro malgranda kvanto da mono. Estas unufoja pago, kiu volas diri, ke post aĉeti ĝin, vi neniam devos pagi denove, ne eĉ post aĉeti novan aparaton. Se vi ne ŝatas la version Pro, vi povas simple malinstali ĝin en kelkaj horoj, kaj via mono estos aŭtomate repagita. Se vi volas repagon post tio, nur kontaktu nin je hello@fossify.org kaj vi ricevos ĝin.</string>
+    <string name="faq_8_text_commons">Ĉar la versio de via aplikaĵo ne plu estos ĝisdatigita, la cimoj kiujn vi eble rimarkis neniam estos korektitaj, nek estos aldonita iu ajn nova funkcio. Vi povas aĉeti la version Pro je Google Play pro malgranda kvanto da mono. Estas unufoja pago, kiu volas diri, ke post aĉeti ĝin, vi neniam devos pagi denove, ne eĉ post aĉeti novan aparaton. Se vi ne ŝatas la version Pro, vi povas simple malinstali ĝin en kelkaj horoj, kaj via mono estos aŭtomate repagita. Se vi volas repagon post tio, nur kontaktu nin je satirrdev@proton.me kaj vi ricevos ĝin.</string>
     <string name="translation_bulgarian">Bulgara</string>
     <string name="why_upgrade_batch_renaming">Altnivela renomado de multaj dosieroj</string>
     <string name="why_upgrade_printing_support">Subteno de presado</string>
@@ -968,8 +937,8 @@
     <string name="translation_kabyle">Kabila</string>
     <string name="translation">Tradukado</string>
     <string name="contributors_label"><![CDATA[
-            Tiu ĉi listo enhavas ĉiujn kiuj rimarkeble helpis iun ajn aplikaĵon de Fossify, ne nur tiu ĉi. La tradukado estas traktita pro volontuloj.
-            Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
+            Tiu ĉi listo enhavas ĉiujn kiuj rimarkeble helpis iun ajn aplikaĵon de Range FM, ne nur tiu ĉi. La tradukado estas traktita pro volontuloj.
+            Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:satirrdev@proton.me">satirrdev@proton.me</a> se vi havas demandojn.
             Dankon al ĉiuj kontribuantoj kaj aliaj subtenantoj!
         ]]></string>
     <string name="m3u_parser_title">M3U Parser (traktado de dosieroj de m3u-ludlistoj)</string>
@@ -1022,7 +991,7 @@
     <string name="apng_title">APNG Android (subteno de WebP-aj movbildoj)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF-legilo)</string>
     <string name="zip4j_title">Zip4j (densigado kaj maldensigado de ZIP-dosieroj)</string>
-    <string name="pro_app_refund">Ne forgesu, ke se vi malinstalas iun ajn pagan aplikaĵon ene de du horoj, vi estos aŭtomate repagita. Se vi volas repagon post tiam, simple kontaktu nin je hello@fossify.org, kaj vi ricevos repagon. Tiel, facilas provi ĝin :)</string>
+    <string name="pro_app_refund">Ne forgesu, ke se vi malinstalas iun ajn pagan aplikaĵon ene de du horoj, vi estos aŭtomate repagita. Se vi volas repagon post tiam, simple kontaktu nin je satirrdev@proton.me, kaj vi ricevos repagon. Tiel, facilas provi ĝin :)</string>
     <string name="developer_description">Aro de simplaj, malfermitkodaj aplikaĵoj de Android kun tajloreblaj fenestraĵoj, sen reklamoj nek nenecesaj permesoj.</string>
     <string name="why_upgrade_zooming">Zomado</string>
     <string name="start_free_trial">Komenci senpagan provon</string>
@@ -1030,7 +999,7 @@
     <string name="unlock_for_one_final_day">Malŝlosi aplikaĵon por unu lasta tago</string>
     <string name="welcome_to_app_name">Bonvenon al %s!</string>
     <string name="trial_end_description">Bonvolu promociiĝi al la versio Pro por plej ĝui la aplikaĵon.\n\nVi nur pagas unu fojon vian tutan vivon, kaj se vi ne kontentas, vi povas malinstali ĝin por ricevi repagon.\n\nĜis :)</string>
-    <string name="deprecated_app">EVITINDA: Tiu ĉi versio de la aplikaĵo ne plu estas prizorgita. Elŝutu la version Pro el https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">EVITINDA: Tiu ĉi versio de la aplikaĵo ne plu estas prizorgita. Elŝutu la version Pro el https://play.google.com/store/apps/details?id=com.satirr..xxx.pro</string>
     <string name="reprint_title">Reprint (protektado per fingropremo)</string>
     <string name="gif_drawable_title">Gif Drawable (ŝargado de GIF-dosieroj)</string>
     <string name="gson_title">Gson (malkomponilo de JSON)</string>
@@ -1041,11 +1010,7 @@
     <string name="days_letter">%dt</string>
     <string name="confirm_storage_access_restricted_text">Pro sistemaj limigoj, tiu ĉi dosierujo ne disponeblas.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Malfermi per sistema aplikaĵo</string>
-    <string name="confirm_storage_access_restricted_text_not_found">Neniu sistema dosieradministrilo-aplikaĵo estis trovita.</string>
-    <string name="more_fossify_apps">Pli da aplikaĵoj de Fossify</string>
-    <string name="rate_this_app">Taksi tiun ĉi aplikaĵon</string>
-    <string name="requires_fossify_thank_you">Postulas Fossify Dankon</string>
-    <string name="evalex_title">EvalEx (taksado de matematika esprimo)</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Neniu sistema dosieradministrilo-aplikaĵo estis trovita.</string>    <string name="rate_this_app">Taksi tiun ĉi aplikaĵon</string>    <string name="evalex_title">EvalEx (taksado de matematika esprimo)</string>
     <string name="enables_more_customization">Ebligas pli da tajlorado</string>
     <string name="translation_latvian">Latva</string>
     <plurals name="files_saved">

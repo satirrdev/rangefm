@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.fossify.commons.views.MyAppBarLayout
+    <com.satirr.commons.views.MyAppBarLayout
         android:id="@+id/settings_appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -19,7 +19,7 @@
             app:title="@string/settings"
             app:titleTextAppearance="@style/AppTheme.ActionBar.TitleTextStyle" />
 
-    </org.fossify.commons.views.MyAppBarLayout>
+    </com.satirr.commons.views.MyAppBarLayout>
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/settings_nested_scrollview"
@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyTextView
+                <com.satirr.commons.views.MyTextView
                     android:id="@+id/settings_color_customization_label"
                     style="@style/SettingsTextLabelStyle"
                     android:layout_width="wrap_content"
@@ -70,18 +70,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/general_settings" />
 
-            <org.fossify.commons.views.PurchaseThankYouItem
-                android:id="@+id/settings_purchase_thank_you_holder"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
             <RelativeLayout
                 android:id="@+id/settings_use_english_holder"
                 style="@style/SettingsHolderSwitchStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.satirr.commons.views.MyMaterialSwitch
                     android:id="@+id/settings_use_english"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"
@@ -96,14 +91,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyTextView
+                <com.satirr.commons.views.MyTextView
                     android:id="@+id/settings_language_label"
                     style="@style/SettingsTextLabelStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/language" />
 
-                <org.fossify.commons.views.MyTextView
+                <com.satirr.commons.views.MyTextView
                     android:id="@+id/settings_language"
                     style="@style/SettingsTextValueStyle"
                     android:layout_width="wrap_content"
@@ -119,7 +114,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyTextView
+                <com.satirr.commons.views.MyTextView
                     android:id="@+id/settings_manage_favorites"
                     style="@style/SettingsTextLabelStyle"
                     android:layout_width="wrap_content"
@@ -134,7 +129,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyTextView
+                <com.satirr.commons.views.MyTextView
                     android:id="@+id/settings_manage_tabs"
                     style="@style/SettingsTextLabelStyle"
                     android:layout_width="wrap_content"
@@ -149,7 +144,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyTextView
+                <com.satirr.commons.views.MyTextView
                     android:id="@+id/settings_change_date_time_format"
                     style="@style/SettingsTextLabelStyle"
                     android:layout_width="wrap_content"
@@ -164,14 +159,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyTextView
+                <com.satirr.commons.views.MyTextView
                     android:id="@+id/settings_font_size_label"
                     style="@style/SettingsTextLabelStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/font_size" />
 
-                <org.fossify.commons.views.MyTextView
+                <com.satirr.commons.views.MyTextView
                     android:id="@+id/settings_font_size"
                     style="@style/SettingsTextValueStyle"
                     android:layout_width="match_parent"
@@ -187,7 +182,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.satirr.commons.views.MyMaterialSwitch
                     android:id="@+id/settings_press_back_twice"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"
@@ -213,7 +208,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.satirr.commons.views.MyMaterialSwitch
                     android:id="@+id/settings_show_hidden"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"
@@ -239,7 +234,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.satirr.commons.views.MyMaterialSwitch
                     android:id="@+id/settings_enable_pull_to_refresh"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"
@@ -265,7 +260,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.satirr.commons.views.MyMaterialSwitch
                     android:id="@+id/settings_keep_last_modified"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"
@@ -280,7 +275,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.satirr.commons.views.MyMaterialSwitch
                     android:id="@+id/settings_skip_delete_confirmation"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"
@@ -306,7 +301,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.satirr.commons.views.MyMaterialSwitch
                     android:id="@+id/settings_password_protection"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"
@@ -321,7 +316,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.satirr.commons.views.MyMaterialSwitch
                     android:id="@+id/settings_app_password_protection"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"
@@ -336,7 +331,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.satirr.commons.views.MyMaterialSwitch
                     android:id="@+id/settings_file_deletion_password_protection"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"
@@ -351,7 +346,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.satirr.commons.views.MyMaterialSwitch
                     android:id="@+id/settings_enable_root_access"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"

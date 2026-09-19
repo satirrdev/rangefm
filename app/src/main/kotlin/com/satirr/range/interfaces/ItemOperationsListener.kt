@@ -1,6 +1,6 @@
 package com.satirr.range.interfaces
 
-import org.fossify.commons.models.FileDirItem
+import com.satirr.commons.models.FileDirItem
 
 interface ItemOperationsListener {
     fun refreshFragment()

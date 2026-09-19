@@ -352,13 +352,7 @@
     <string name="undo_changes">التراجع عن التغييرات</string>
     <string name="undo_changes_confirmation">هل تريد بالتاكيد التراجع عن التغييرات التي أجريتها ؟</string>
     <string name="cannot_be_undone">لا يمكن التراجع عن هذا الإجراء.</string>
-    <string name="save_before_closing">لديك تغييرات غير محفوظة. هل تريد الحفظ قبل الخروج ؟</string>
-    <string name="global_theme_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \'المشتركة\'، يرجى إستخدام ذلك لتحديث جميع ألوان التطبيق في المستقبل.</string>
-    <string name="purchase_thank_you"><![CDATA[
-             يرجى شراء<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
-        ]]></string>
-    <string name="light_theme">فاتح</string>
-    <string name="dark_theme">داكن</string>
+    <string name="save_before_closing">لديك تغييرات غير محفوظة. هل تريد الحفظ قبل الخروج ؟</string>    <string name="dark_theme">داكن</string>
     <string name="auto_light_dark_theme">ضوء تلقائي / داكن</string>
     <string name="solarized">شمسي</string>
     <string name="dark_red">أحمر داكن</string>
@@ -947,15 +941,7 @@
     <string name="about_footer">صنع بـ ❤️ في سلوفاكيا</string>
     <string name="additional_info">معلومات إضافية</string>
     <string name="app_version">إصدار التطبيق: %s</string>
-    <string name="device_os">نظام تشغيل الجهاز: %s</string>
-    <string name="donate_please">
-        <![CDATA[
- مرحباً,<br><br>
-            أتمني أن مستمتعاً بالتطبيق. الذي لا يحتوي على إعلانات ، يرجى دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>سيمنع هذا  مربع الحوار من الظهور مرة أخرى. <br><br>
-            شكرا!
-        ]]>
-    </string>
-    <string name="purchase">شراء</string>
+    <string name="device_os">نظام تشغيل الجهاز: %s</string>    <string name="purchase">شراء</string>
     <string name="before_asking_question_read_faq">قبل ان تسأل سؤالاً ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة المتداولة أولاً. ربما يكون الحل موجوداً.</string>
     <string name="make_sure_latest">تأكد أيضاً من أنك تستخدم أحدث إصدار من التطبيق.</string>
     <string name="make_sure_upgrade">لاحظ أيضًا أن إصدار التطبيق هذا لم يعد قيد التطوير ، احصل على الإصدار الاحترافي للعديد من التحسينات.</string>
@@ -992,13 +978,7 @@
     <string name="notes_short">الملاحظات</string>
     <string name="sms_messenger_short">الرسائل القصيرة</string>
     <string name="thank_you_short">شكرًا لك</string>
-    <string name="voice_recorder_short">مسجل الصوت</string>
-    <string name="sideloaded_app">
-        <![CDATA[
-يبدو أن إصدار التطبيق تالف. يرجى تنزيل الإصدار الأصلي<a href="%s">من هنا</a>.
-        ]]>
-    </string>
-    <string name="frequently_asked_questions">الأسئلة المتداولة</string>
+    <string name="voice_recorder_short">مسجل الصوت</string>    <string name="frequently_asked_questions">الأسئلة المتداولة</string>
     <string name="before_asking_question">قبل أن تسأل سؤالاً ، يرجى قراءة أولاً</string>
     <string name="faq_1_title_commons">كيف لا أرى هذه التطبيقات في قائمة التطبيقات المصغّرة (الويدجت)؟</string>
     <string name="faq_1_text_commons">وهو على الأرجح لأنك قمت بنقل التطبيق على بطاقة الذاكرة (SD) هناك حد لنظام أندرويد يقوم باخفاء (الويدجت) للتطبيق المحدد           في هذه الحالة يتمثل الحل الوحيد في نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية من خلال إعدادات جهازك.</string>
@@ -1013,7 +993,7 @@
     <string name="faq_7_title_commons">تم خصم المال من حسابي البنكي ، لكن لا يمكنني تنزيل التطبيق. ماذا يمكنني أن أفعل؟</string>
     <string name="faq_7_text_commons">تتم معالجة المدفوعات بالكامل بواسطة Google ، حيث يتسبب نظامها في خلل من وقت لآخر. فقط قم بمسح ذاكرة التخزين المؤقت للتطبيق في Google Play وإعد تشغيل جهازك ، ثم أعد محاولة تنزيله.</string>
     <string name="faq_8_title_commons">لماذا يجب عليا الترقية إلى الإصدار البرو (Pro)?</string>
-    <string name="faq_8_text_commons">نظراً لأن إصدار التطبيق الخاص بك لم يعد محدثاً ، فلن يتم إصلاح الأخطاء التي إكتشافها. كما لن تتم إضافة وظائف جديدة . يمكنك شراء الإصدار الـ Pro على Google Play مقابل مبلغ صغير من المال. إنها دفعة لمرة واحدة،مما يعني أنه بمجرد شرائه ، لن تضطر إلى الدفع مرة أخرى. ليس حتى بعد الحصول على جهاز جديد. إذا كنت لا تحب إصدار Pro ، يمكنك إلغاء تثبيته في غضون ساعات قليلة وستحصل على أموالك تلقائياً.إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@fossify.org وستحصل عليه.</string>
+    <string name="faq_8_text_commons">نظراً لأن إصدار التطبيق الخاص بك لم يعد محدثاً ، فلن يتم إصلاح الأخطاء التي إكتشافها. كما لن تتم إضافة وظائف جديدة . يمكنك شراء الإصدار الـ Pro على Google Play مقابل مبلغ صغير من المال. إنها دفعة لمرة واحدة،مما يعني أنه بمجرد شرائه ، لن تضطر إلى الدفع مرة أخرى. ليس حتى بعد الحصول على جهاز جديد. إذا كنت لا تحب إصدار Pro ، يمكنك إلغاء تثبيته في غضون ساعات قليلة وستحصل على أموالك تلقائياً.إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على satirrdev@proton.me وستحصل عليه.</string>
     <string name="faq_9_title_commons">كيف يمكنني تحديد عناصر متعددة في وقت واحد؟</string>
     <string name="faq_9_text_commons">هناك طرق متعددة للقيام بذلك. الأول هو بدء وضع التحديد عن طريق الضغط لفترة طويلة على عنصر واحد ، ثم النقر باختصار على العناصر الأخرى لتحديدها. الطريقة الثانية مشابهة لاختيار العناصر على أجهزة الكمبيوتر باستخدام الماوس ، فقط ابدأ وضع التحديد بالضغط مطولاً على عنصر واحد ، ثم مع استمرار إصبعك في السحب لأسفل عبر العناصر الأخرى للاختيار. الطريقة الثالثة لاختيار عدة عناصر هي الضغط لفترة طويلة على عنصر واحد ، ثم الضغط لفترة طويلة على عنصر آخر ويتم تحديد كل شيء بينهما. إذا كنت ترغب في تحديد جميع العناصر ، فما عليك سوى الضغط لفترة طويلة على عنصر واحد ، ثم النقر فوق عداد العناصر المحدد في الزاوية اليسرى العليا. سيؤدي ذلك إلى تحديد أو إلغاء تحديد كل شيء.</string>
     <string name="faq_10_title_commons">لقد اشتريت التطبيق ، لكن لا يمكنني تنزيله على جهاز آخر.</string>
@@ -1106,8 +1086,8 @@
         <item quantity="many">تنتهي صلاحية الإصدار التجريبي في %d ايام.</item>
         <item quantity="other">تنتهي صلاحية الإصدار التجريبي في اليوم %d.</item>
     </plurals>
-    <string name="deprecated_app">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@fossify.org وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
+    <string name="deprecated_app">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=com.satirr..xxx.pro</string>
+    <string name="pro_app_refund">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على satirrdev@proton.me وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
     <string name="developer_description">مجموعة بسيطة، من تطبيقات أندرويد المفتوحة المصدر ذات الودجات القابلة للتخصيص، بدون إعلانات أو أذونات غير ضرورية.</string>
     <string name="translation_esperanto">الإسبرانتو</string>
     <string name="app_icon_color_warning">تحذير: بعض المشغلات قد لا تدير تخصيص أيقونة التطبيق بشكل صحيح. إذا اختفت الأيقونة، حاول تشغيل التطبيق عبر Google Play أو أداة، إن أمكن. بعد التشغيل، استعادة لون الأيقونة الافتراضي الأخضر #106D1F. في الحالات القصوى، قد يكون إعادة تثبيت التطبيق ضروريًا.</string>
@@ -1140,14 +1120,10 @@
     <string name="translation_chinese_tw">الصينية (التقليدية)</string>
     <string name="reorder_items_by_dragging">إعادة ترتيب العناصر بالسحب</string>
     <string name="during_day_at">خلال اليوم في الساعة %1$02d:%2$02d</string>
-    <string name="copyright">الإصدار %1$s\nحقوق الطبع والنشر © Fossify %2$d</string>
-    <string name="donate_short">ادعمنا بشراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> من فضلك، سيفتح ذلك أيضًا جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
-    <string name="platforms">المنصات</string>
+    <string name="copyright">الإصدار %1$s\nحقوق الطبع والنشر © Range FM %2$d</string>    <string name="platforms">المنصات</string>
     <string name="confirm_storage_access_restricted_text">بسبب قيود النظام، هذا المجلد غير متوفر.</string>
     <string name="confirm_storage_access_restricted_text_open_system">فتح في تطبيق النظام</string>
-    <string name="confirm_storage_access_restricted_text_not_found">تعذر العثور على تطبيق إدارة ملفات النظام.</string>
-    <string name="shared_theme_note">لاحظ أنه على الرغم من أنك تستخدم الإصدار الاحترافي من التطبيق، لا تزال بحاجة إلى Fossify Thank You لأسباب تقنية. فهو يعتني بمزامنة الألوان.</string>
-    <string name="auto_theme">سمة تلقائية</string>
+    <string name="confirm_storage_access_restricted_text_not_found">تعذر العثور على تطبيق إدارة ملفات النظام.</string>    <string name="auto_theme">سمة تلقائية</string>
     <string name="white">أبيض</string>
     <string name="send_email">إرسال بريد إلكتروني</string>
     <string name="contact_details">تفاصيل جهة الاتصال</string>
@@ -1166,16 +1142,12 @@
     <string name="translation_hindi">الهندية</string>
     <string name="translation_romanian">الرومانية</string>
     <string name="translation_russian">الروسية</string>
-    <string name="files_tab">الملفات</string>
-    <string name="apply_to_all_apps">تطبيق الألوان على جميع تطبيقات Fossify</string>
-    <string name="block_contact">حظر جهة اتصال</string>
+    <string name="files_tab">الملفات</string>    <string name="block_contact">حظر جهة اتصال</string>
     <string name="november_short">نوفمبر</string>
     <string name="translation_belarusian">البيلاروسية</string>
     <string name="translation_czech">التشيكية</string>
     <string name="genre">النوع</string>
-    <string name="seconds_letter">%dث</string>
-    <string name="purchase_simple_thank_you">شراء Fossify Thank You</string>
-    <string name="one">واحد</string>
+    <string name="seconds_letter">%dث</string>    <string name="one">واحد</string>
     <string name="translation_italian">الإيطالية</string>
     <string name="translation_vietnamese">الفيتنامية</string>
     <string name="translation_kabyle">القبائلية</string>
@@ -1184,9 +1156,7 @@
     <string name="faq_6_text_commons">تحدث هذه المشكلة عندما لا يدعم المطلق الخاص بك تخصيص الأيقونات بشكل كامل. حاول تشغيل التطبيق عبر Google Play أو أداة، إذا كانت متاحة. بعد التشغيل، استعِد لون الأيقونة الخضراء الافتراضي #106D1F. في الحالات القصوى، قد يكون إعادة تثبيت التطبيق ضروريًا.</string>
     <string name="add_number_to_contact">أضف رقماً للاتصال</string>
     <string name="view_contact_details">عرض تفاصيل جهة الاتصال</string>
-    <string name="notification_sound">صوت الإشعار</string>
-    <string name="features_locked">هذه الميزة مقفلة، يرجى شراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> لفتح التطبيق بالكامل.<br/><br/>إنها دفعة لمرة واحدة فقط، وإذا لم تكن راضيًا، يمكننا استرداد أموالك.</string>
-    <string name="translation_arabic">العربية</string>
+    <string name="notification_sound">صوت الإشعار</string>    <string name="translation_arabic">العربية</string>
     <string name="translation_basque">الباسكية</string>
     <string name="translation_croatian">الكرواتية</string>
     <string name="translation_indonesian">الإندونيسية</string>
@@ -1202,12 +1172,7 @@
     <string name="list_view">عرض القائمة</string>
     <string name="january_short">يناير</string>
     <string name="february_short">فبراير</string>
-    <string name="march_short">مارس</string>
-    <string name="donate_new">مرحبًا،<br/><br/>نأمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ولا نجمع بياناتك أيضًا، يرجى دعم تطويره بشراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. ستحصل أيضًا على جميع ميزات التطبيق بما في ذلك تخصيص الألوان مفتوحة.<br/><br/>شكرًا!</string>
-    <string name="all_fossify_apps">جميع تطبيقات Fossify</string>
-    <string name="donate_to_fossify">تبرع لـ Fossify</string>
-    <string name="translation_azerbaijani">الأذربيجانية</string>
-    <string name="translation_bengali">البنغالية</string>
+    <string name="march_short">مارس</string>    <string name="translation_bengali">البنغالية</string>
     <string name="translation_chuvash">الشوفاش</string>
     <string name="translation_welsh">الويلزية</string>
     <string name="translation_hebrew">العبرية</string>
@@ -1216,9 +1181,7 @@
     <string name="why_upgrade_recents_tab">علامة تبويب مع الملفات الحديثة</string>
     <string name="translation_breton">البريتونية</string>
     <string name="translation_bulgarian">البلغارية</string>
-    <string name="translation_catalan">الكتالونية</string>
-    <string name="update_thank_you">يرجى تحديث Fossify Thank You إلى الإصدار الأحدث</string>
-    <string name="fee_up_to_pct">رسوم تصل إلى %1$d%%</string>
+    <string name="translation_catalan">الكتالونية</string>    <string name="fee_up_to_pct">رسوم تصل إلى %1$d%%</string>
     <string name="cryptocurrency">العملة الرقمية</string>
     <string name="translation_finnish">الفنلندية</string>
     <string name="translation_french">الفرنسية</string>
@@ -1227,16 +1190,14 @@
     <string name="translation_japanese">اليابانية</string>
     <string name="translation_korean">الكورية</string>
     <string name="translation_lithuanian">الليتوانية</string>
-    <string name="why_upgrade_file_compression">دعم ضغط الملفات</string>
-    <string name="more_fossify_apps">المزيد من تطبيقات Fossify</string>
-    <string name="rate_this_app">قيّم هذا التطبيق</string>
+    <string name="why_upgrade_file_compression">دعم ضغط الملفات</string>    <string name="rate_this_app">قيّم هذا التطبيق</string>
     <string name="faq_2_text_commons"><![CDATA[
             نعم، بالطبع. يمكنك نشر الكلمة عن التطبيقات أو تقديم ملاحظات وتقييمات جيدة. يمكنك أيضًا المساعدة بترجمة التطبيقات إلى لغة جديدة، أو تحديث بعض الترجمات الحالية.
-            دليل الترجمة موجود على <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:hello@fossify.org">hello@fossify.org</a> إذا كانت لديك أي أسئلة.
+            دليل الترجمة موجود على <a href="https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:satirrdev@proton.me">satirrdev@proton.me</a> إذا كانت لديك أي أسئلة.
         ]]></string>
     <string name="contributors_label"><![CDATA[
-            تحتوي هذه القائمة على كل من ساعد بشكل ملحوظ في أي تطبيق ضمن مجموعة Fossify، وليس هذا التطبيق فقط. تتم الترجمات بواسطة متطوعين،
-            أخبرنا إذا كنت تريد المساعدة أيضًا. دليل الترجمة موجود على <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:hello@fossify.org">hello@fossify.org</a> إذا كانت لديك أي أسئلة.
+            تحتوي هذه القائمة على كل من ساعد بشكل ملحوظ في أي تطبيق ضمن مجموعة Range FM، وليس هذا التطبيق فقط. تتم الترجمات بواسطة متطوعين،
+            أخبرنا إذا كنت تريد المساعدة أيضًا. دليل الترجمة موجود على <a href="https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:satirrdev@proton.me">satirrdev@proton.me</a> إذا كانت لديك أي أسئلة.
             شكرًا لجميع المساهمين والداعمين الآخرين!
         ]]></string>
     <string name="translation_spanish">الإسبانية</string>

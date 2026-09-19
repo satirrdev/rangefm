@@ -1,10 +1,10 @@
 package com.satirr.range.dialogs
 
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.extensions.beVisibleIf
-import org.fossify.commons.extensions.getAlertDialogBuilder
-import org.fossify.commons.extensions.setupDialogStuff
-import org.fossify.commons.helpers.*
+import com.satirr.commons.activities.BaseSimpleActivity
+import com.satirr.commons.extensions.beVisibleIf
+import com.satirr.commons.extensions.getAlertDialogBuilder
+import com.satirr.commons.extensions.setupDialogStuff
+import com.satirr.commons.helpers.*
 import com.satirr.range.R
 import com.satirr.range.databinding.DialogChangeSortingBinding
 import com.satirr.range.extensions.config

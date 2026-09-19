@@ -2,13 +2,13 @@ package com.satirr.range.adapters
 
 import android.view.*
 import androidx.appcompat.widget.PopupMenu
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.adapters.MyRecyclerViewAdapter
-import org.fossify.commons.extensions.getPopupMenuTheme
-import org.fossify.commons.extensions.getProperTextColor
-import org.fossify.commons.extensions.setupViewBackground
-import org.fossify.commons.interfaces.RefreshRecyclerViewListener
-import org.fossify.commons.views.MyRecyclerView
+import com.satirr.commons.activities.BaseSimpleActivity
+import com.satirr.commons.adapters.MyRecyclerViewAdapter
+import com.satirr.commons.extensions.getPopupMenuTheme
+import com.satirr.commons.extensions.getProperTextColor
+import com.satirr.commons.extensions.setupViewBackground
+import com.satirr.commons.interfaces.RefreshRecyclerViewListener
+import com.satirr.commons.views.MyRecyclerView
 import com.satirr.range.R
 import com.satirr.range.databinding.ItemManageFavoriteBinding
 import com.satirr.range.extensions.config

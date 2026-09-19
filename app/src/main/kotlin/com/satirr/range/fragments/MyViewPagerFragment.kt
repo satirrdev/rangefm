@@ -3,10 +3,10 @@ package com.satirr.range.fragments
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.RelativeLayout
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.VIEW_TYPE_LIST
-import org.fossify.commons.models.FileDirItem
-import org.fossify.commons.views.MyFloatingActionButton
+import com.satirr.commons.extensions.*
+import com.satirr.commons.helpers.VIEW_TYPE_LIST
+import com.satirr.commons.models.FileDirItem
+import com.satirr.commons.views.MyFloatingActionButton
 import com.satirr.range.R
 import com.satirr.range.activities.MainActivity
 import com.satirr.range.activities.SimpleActivity

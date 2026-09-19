@@ -2,13 +2,13 @@ package com.satirr.range.activities
 
 import android.graphics.Paint
 import android.os.Bundle
-import org.fossify.commons.dialogs.FilePickerDialog
-import org.fossify.commons.extensions.beVisibleIf
-import org.fossify.commons.extensions.getProperPrimaryColor
-import org.fossify.commons.extensions.getProperTextColor
-import org.fossify.commons.extensions.viewBinding
-import org.fossify.commons.helpers.NavigationIcon
-import org.fossify.commons.interfaces.RefreshRecyclerViewListener
+import com.satirr.commons.dialogs.FilePickerDialog
+import com.satirr.commons.extensions.beVisibleIf
+import com.satirr.commons.extensions.getProperPrimaryColor
+import com.satirr.commons.extensions.getProperTextColor
+import com.satirr.commons.extensions.viewBinding
+import com.satirr.commons.helpers.NavigationIcon
+import com.satirr.commons.interfaces.RefreshRecyclerViewListener
 import com.satirr.range.R
 import com.satirr.range.adapters.ManageFavoritesAdapter
 import com.satirr.range.databinding.ActivityFavoritesBinding

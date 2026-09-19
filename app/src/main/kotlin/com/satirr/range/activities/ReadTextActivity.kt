@@ -14,13 +14,13 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ImageView
 import android.widget.TextView
-import org.fossify.commons.dialogs.ConfirmationAdvancedDialog
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.NavigationIcon
-import org.fossify.commons.helpers.REAL_FILE_PATH
-import org.fossify.commons.helpers.SAVE_DISCARD_PROMPT_INTERVAL
-import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.commons.views.MyEditText
+import com.satirr.commons.dialogs.ConfirmationAdvancedDialog
+import com.satirr.commons.extensions.*
+import com.satirr.commons.helpers.NavigationIcon
+import com.satirr.commons.helpers.REAL_FILE_PATH
+import com.satirr.commons.helpers.SAVE_DISCARD_PROMPT_INTERVAL
+import com.satirr.commons.helpers.ensureBackgroundThread
+import com.satirr.commons.views.MyEditText
 import com.satirr.range.R
 import com.satirr.range.databinding.ActivityReadTextBinding
 import com.satirr.range.dialogs.SaveAsDialog
@@ -63,10 +63,6 @@ class ReadTextActivity : SimpleActivity() {
         searchPrevBtn = findViewById(R.id.search_previous)
         searchNextBtn = findViewById(R.id.search_next)
         searchClearBtn = findViewById(R.id.search_clear)
-
-        if (checkAppSideloading()) {
-            return
-        }
 
         val uri = if (intent.extras?.containsKey(REAL_FILE_PATH) == true) {
             Uri.fromFile(File(intent.extras?.get(REAL_FILE_PATH).toString()))

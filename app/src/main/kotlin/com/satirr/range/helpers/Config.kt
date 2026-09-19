@@ -2,8 +2,8 @@ package com.satirr.range.helpers
 
 import android.content.Context
 import android.content.res.Configuration
-import org.fossify.commons.extensions.getInternalStoragePath
-import org.fossify.commons.helpers.BaseConfig
+import com.satirr.commons.extensions.getInternalStoragePath
+import com.satirr.commons.helpers.BaseConfig
 import java.io.File
 import java.util.Locale
 

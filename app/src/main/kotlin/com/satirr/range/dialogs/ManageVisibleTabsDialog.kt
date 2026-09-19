@@ -1,12 +1,12 @@
 package com.satirr.range.dialogs
 
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.extensions.getAlertDialogBuilder
-import org.fossify.commons.extensions.setupDialogStuff
-import org.fossify.commons.helpers.TAB_FILES
-import org.fossify.commons.helpers.TAB_RECENT_FILES
-import org.fossify.commons.helpers.TAB_STORAGE_ANALYSIS
-import org.fossify.commons.views.MyAppCompatCheckbox
+import com.satirr.commons.activities.BaseSimpleActivity
+import com.satirr.commons.extensions.getAlertDialogBuilder
+import com.satirr.commons.extensions.setupDialogStuff
+import com.satirr.commons.helpers.TAB_FILES
+import com.satirr.commons.helpers.TAB_RECENT_FILES
+import com.satirr.commons.helpers.TAB_STORAGE_ANALYSIS
+import com.satirr.commons.views.MyAppCompatCheckbox
 import com.satirr.range.R
 import com.satirr.range.databinding.DialogManageVisibleTabsBinding
 import com.satirr.range.extensions.config

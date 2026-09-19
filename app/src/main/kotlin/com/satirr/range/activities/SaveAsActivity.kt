@@ -3,10 +3,10 @@ package com.satirr.range.activities
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import org.fossify.commons.dialogs.FilePickerDialog
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.NavigationIcon
-import org.fossify.commons.helpers.ensureBackgroundThread
+import com.satirr.commons.dialogs.FilePickerDialog
+import com.satirr.commons.extensions.*
+import com.satirr.commons.helpers.NavigationIcon
+import com.satirr.commons.helpers.ensureBackgroundThread
 import com.satirr.range.R
 import com.satirr.range.databinding.ActivitySaveAsBinding
 import com.satirr.range.extensions.config

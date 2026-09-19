@@ -267,13 +267,7 @@
     <string name="discard">Renunţă</string>
     <string name="undo_changes">Anulează modificările</string>
     <string name="undo_changes_confirmation">Sunteți sigur că vreţi să anulați modificările?</string>
-    <string name="save_before_closing">Aveți modificări nesalvate. Salvați înainte de a ieși?</string>
-    <string name="global_theme_success">Culorile au fost actualizate cu succes. A fost adăugată o nouă temă numită \'Partajată\', vă rugăm să o folosiți pentru actualizarea tuturor culorilor aplicației în viitor.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Vă rugăm cumpăraţi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pentru a debloca această funcţie şi pentru a sprijini dezvoltatorii. Vă mulţumim!
-        ]]></string>
-    <string name="light_theme">Luminoasă</string>
-    <string name="dark_theme">Întunecată</string>
+    <string name="save_before_closing">Aveți modificări nesalvate. Salvați înainte de a ieși?</string>    <string name="dark_theme">Întunecată</string>
     <string name="auto_theme">Automatic</string>
     <string name="auto_light_dark_theme">Schimbare automată a modului luminos / întunecat</string>
     <string name="solarized">Solarizat</string>
@@ -710,15 +704,7 @@
     <string name="about_footer">Realizat cu ❤️ în Slovacia</string>
     <string name="additional_info">Informații suplimentare</string>
     <string name="app_version">Versiunea aplicației: %s</string>
-    <string name="device_os">Dispozitivul OS: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Salut,<br><br>
-            Sper că vă bucurați de aplicație. Nu conține reclame, vă rugăm să sprijiniți dezvoltarea sa prin achiziționarea aplicației <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, de asemenea, va împiedica ca acest dialog să mais apară din nou.<br><br>
-            Thank you!
-        ]]>
-    </string>
-    <string name="purchase">Cumpără</string>
+    <string name="device_os">Dispozitivul OS: %s</string>    <string name="purchase">Cumpără</string>
     <string name="before_asking_question_read_faq">Înainte de a pune o întrebare, vă rugăm să verificați setările aplicației și să citiți mai întâi Întrebările frecvente. Este posibil ca soluția să se afle acolo.</string>
     <string name="make_sure_latest">De asemenea, asigurați-vă că utilizați cea mai recentă versiune a aplicației.</string>
     <string name="make_sure_upgrade">De asemenea, rețineți că această versiune a aplicației nu mai este în curs de dezvoltare, obțineți versiunea Pro pentru multe îmbunătățiri.</string>
@@ -751,13 +737,7 @@
     <string name="notes_short">Note</string>
     <string name="sms_messenger_short">Mesaje</string>
     <string name="thank_you_short">Îţi mulţumesc</string>
-    <string name="voice_recorder_short">Înregistrare vocală</string>
-    <string name="sideloaded_app">
-        <![CDATA[
-            Se pare că versiunea aplicației dvs. este coruptă. Vă rugăm să descărcați versiunea originală <a href="%s">aici</a>.
-        ]]>
-    </string>
-    <string name="frequently_asked_questions">Întrebări frecvente</string>
+    <string name="voice_recorder_short">Înregistrare vocală</string>    <string name="frequently_asked_questions">Întrebări frecvente</string>
     <string name="before_asking_question">Înainte de a pune o întrebare, vă rugăm să citiți mai întâi</string>
     <string name="faq_1_title_commons">Cum se face că nu văd widgetul corespunzător aplicaţiei în lista de widgeturi?</string>
     <string name="faq_1_text_commons">Cel mai probabil se datorează faptului că ați mutat aplicația pe un card SD. Este o limitare a sistemului Android care ascunde widget-urile aplicației.
@@ -766,7 +746,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Da, bineînțeles. Puteți să răspândiți vestea despre aplicațiile Simple sau să oferiți feedback și evaluări bune pe magaziul Google Play. De asemenea, puteți ajuta prin traducerea aplicațiilor într-o limbă nouă sau doar prin actualizarea unor traduceri existente.
-            Ghidul de traducere se găsește la <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">acest site</a>, sau pur și simplu contactați-ne la <a href="mailto:hello@fossify.org">hello@fossify.org</a> dacă aveți întrebări.
+            Ghidul de traducere se găsește la <a href="https://github.com/satirrdev/rangefm/General-Discussion#how-can-i-suggest-an-edit-to-a-file">acest site</a>, sau pur și simplu contactați-ne la <a href="mailto:satirrdev@proton.me">satirrdev@proton.me</a> dacă aveți întrebări.
         ]]>
     </string>
     <string name="faq_3_title_commons">Am șters niște fișiere din greșeală, cum pot să le recuperez?</string>
@@ -781,7 +761,7 @@
     <string name="faq_8_title_commons">De ce ar trebui să trec la versiunea Pro?</string>
     <string name="faq_8_text_commons">Deoarece versiunea aplicației dvs. nu mai este actualizată, erorile pe care poate le-ați detectat nu vor fi rezolvate niciodată. De asemenea, nu vor fi adăugate funcții noi. Puteți achiziționa versiunea Pro de pe Google Play pentru o sumă modestă de bani.
         Este o plată unică, ceea ce înseamnă că, odată ce ați cumpărat-o, nu va trebui să mai plătiți niciodată. Nici măcar după ce vă achiziționați un nou dispozitiv. Dacă nu vă place versiunea Pro, puteți să o dezinstalați în câteva ore și vă veți primi automat banii înapoi.
-        Dacă doriți o rambursare în orice moment ulterior, contactați-ne la hello@fossify.org și o veți obține.</string>
+        Dacă doriți o rambursare în orice moment ulterior, contactați-ne la satirrdev@proton.me și o veți obține.</string>
     <string name="faq_9_title_commons">Cum pot selecta mai multe elemente simultan?</string>
     <string name="faq_9_text_commons">Există mai multe modalități de a face acest lucru. Prima este pornirea modului de selectare prin apăsarea lungă a unui element, apoi prin apăsarea scurtă pe celelalte pentru a le selecta. Al doilea mod este similar cu selectarea elementelor de pe PC-uri cu ajutorul mouse-ului,
         porniți modul de selecție prin apăsarea lungă a unui element, apoi, cu degetul încă apăsat, trageți-l peste alte elemente pentru a le selecta. Al treilea mod de a selecta mai multe elemente este apăsarea lungă a unui element, apoi apăsarea lungă a altui element și tot ce se află între ele este selectat. Dacă
@@ -894,8 +874,8 @@
     <string name="audio_record_view_title">Audio Record View (vizualizare audio)</string>
     <string name="sms_mms_title">SMS MMS (Gestionarea SMS și MMS)</string>
     <string name="apng_title">APNG Android (suport WebP animat)</string>
-    <string name="deprecated_app">DEPRECIAT: Această versiune a aplicației nu mai este întreținută, obțineți versiunea Pro la https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Nu uitați că, dacă dezinstalați orice aplicație plătită în termen de 2 ore, veți fi rambursat automat. Dacă doriți o rambursare oricând mai târziu, contactați-ne la hello@fossify.org și o veți obține. Astfel, este ușor să o încercați. :)</string>
+    <string name="deprecated_app">DEPRECIAT: Această versiune a aplicației nu mai este întreținută, obțineți versiunea Pro la https://play.google.com/store/apps/details?id=com.satirr..xxx.pro</string>
+    <string name="pro_app_refund">Nu uitați că, dacă dezinstalați orice aplicație plătită în termen de 2 ore, veți fi rambursat automat. Dacă doriți o rambursare oricând mai târziu, contactați-ne la satirrdev@proton.me și o veți obține. Astfel, este ușor să o încercați. :)</string>
     <string name="developer_description">Un grup de aplicații Android simple, open source, cu widget-uri personalizabile, fără reclame și permisiuni inutile.</string>
     <string name="pager">Paginator</string>
     <string name="row_count">Număr de rânduri</string>
@@ -970,9 +950,7 @@
     <string name="more_options">Mai multe opțiuni</string>
     <string name="deletion_confirmation_short">Ștergeți %s?</string>
     <string name="pin">PIN</string>
-    <string name="password">Parola</string>
-    <string name="purchase_simple_thank_you">Achiziționați Mulțumesc Fossify (Thank You)</string>
-    <string name="general_settings">General</string>
+    <string name="password">Parola</string>    <string name="general_settings">General</string>
     <string name="text">Text</string>
     <string name="allow_notifications_reminders">Trebuie să permiți aplicației să afișeze notificări, altfel nu va putea afișa memento-uri.</string>
     <string name="transparent">Transparent</string>

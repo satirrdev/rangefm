@@ -162,13 +162,7 @@
     <string name="discard">Yoxsay</string>
     <string name="undo_changes">Dəyişiklikləri geri al</string>
     <string name="undo_changes_confirmation">Dəyişiklikləri geri almaq istədiyinizə əminsiniz?</string>
-    <string name="save_before_closing">Yadda saxlamadığınız dəyişikliklər var. Çıxmazdan əvvəl saxlanılsın?</string>
-    <string name="global_theme_success">Rənglər uğurla yeniləndi. \'Paylanmış\' adlı yeni tema əlavə edildi, xahiş olunur gələcəkdə bütün tətbiqlərin yeniləmələri üçün bundan istifadə edin.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Lütfən bağış edin <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Bu funksiyanı açdığınız və təkmilləşdirməni dəstəklədiyiniz üçün Sadə Təşəkkür</a>. Çox Sağolun!
-        ]]></string>
-    <string name="light_theme">İşıqlı</string>
-    <string name="dark_theme">Qaranlıq</string>
+    <string name="save_before_closing">Yadda saxlamadığınız dəyişikliklər var. Çıxmazdan əvvəl saxlanılsın?</string>    <string name="dark_theme">Qaranlıq</string>
     <string name="solarized">Közərmiş</string>
     <string name="dark_red">Qaraqırmızı</string>
     <string name="black_white">Ağ və Qara</string>
@@ -435,15 +429,7 @@
     <string name="follow_us">İzlə</string>
     <string name="additional_info">Əlavə məlumat</string>
     <string name="app_version">Tətbiq versiyası: %s</string>
-    <string name="device_os">Cihaz ƏS: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Salam,<br><br>
-            arzu edirəm tətbiqdən zövq alırsan. Reklam ehtiva etmir, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
-            Thank you!
-        ]]>
-    </string>
-    <string name="purchase">Ödəniş Et</string>
+    <string name="device_os">Cihaz ƏS: %s</string>    <string name="purchase">Ödəniş Et</string>
     <string name="calculator_short">Kalkulyator</string>
     <string name="calendar_short">Təqvim</string>
     <string name="camera_short">Kamera</string>

@@ -1,10 +1,10 @@
 package com.satirr.range.dialogs
 
 import androidx.appcompat.app.AlertDialog
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.dialogs.ConfirmationDialog
-import org.fossify.commons.dialogs.FilePickerDialog
-import org.fossify.commons.extensions.*
+import com.satirr.commons.activities.BaseSimpleActivity
+import com.satirr.commons.dialogs.ConfirmationDialog
+import com.satirr.commons.dialogs.FilePickerDialog
+import com.satirr.commons.extensions.*
 import com.satirr.range.R
 import com.satirr.range.databinding.DialogSaveAsBinding
 

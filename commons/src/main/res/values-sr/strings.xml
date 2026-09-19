@@ -296,13 +296,7 @@
     <string name="undo_changes">Поништи измене</string>
     <string name="undo_changes_confirmation">Да ли желите да поништите измене?</string>
     <string name="cannot_be_undone">Ова радња се не може опозвати.</string>
-    <string name="save_before_closing">Имате несачуване измене. Сачувај пре изласка?</string>
-    <string name="global_theme_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Молимо вас купите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> да бисте откључали ову функцију и подржали наш развој. Хвала вам!
-        ]]></string>
-    <string name="light_theme">Светла</string>
-    <string name="dark_theme">Тамна</string>
+    <string name="save_before_closing">Имате несачуване измене. Сачувај пре изласка?</string>    <string name="dark_theme">Тамна</string>
     <string name="auto_light_dark_theme">Ауто светло / тамно</string>
     <string name="solarized">Осветљена</string>
     <string name="dark_red">Тамно црвена</string>
@@ -770,15 +764,7 @@
     <string name="about_footer">Произведено са ❤️ у Словачкој</string>
     <string name="additional_info">Додатне информације</string>
     <string name="app_version">Верзија апликације: %s</string>
-    <string name="device_os">Оперативни систем уређаја: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Поздрав,<br><br>
-            надамо се да уживате у апликацији. Она не садржи огласе, молимо вас да подржите њен развој куповином <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> апликације, то ће такође спречити овај дијалог од поновног појављивања.<br><br>
-            Хвала вам!
-        ]]>
-    </string>
-    <string name="purchase">Купите</string>
+    <string name="device_os">Оперативни систем уређаја: %s</string>    <string name="purchase">Купите</string>
     <string name="before_asking_question_read_faq">Пре постављања питања проверите подешавања апликације и прочитајте најчешће постављана питања. Можда су решења већ ту.</string>
     <string name="make_sure_latest">Такође се уверите да користите најновију верзију апликације.</string>
     <string name="make_sure_upgrade">Такође имајте на уму да се ова верзија апликације више не развија, набавите Про за многа побољшања.</string>
@@ -814,13 +800,7 @@
     <string name="music_player_short">Музички плејер</string>
     <string name="sms_messenger_short">СМС Мессенгер</string>
     <string name="thank_you_short">Хвала вам</string>
-    <string name="voice_recorder_short">Диктафон</string>
-    <string name="sideloaded_app">
-        <![CDATA[
-            Изгледа да је верзија ваше апликације у квару. Молимо вас преузмите оригиналну верзију <a href="%s">овде</a>.
-        ]]>
-    </string>
-    <string name="frequently_asked_questions">Најчешће постављена питања</string>
+    <string name="voice_recorder_short">Диктафон</string>    <string name="frequently_asked_questions">Најчешће постављена питања</string>
     <string name="before_asking_question">Пре него поставите питање, прво прочитајте</string>
     <string name="faq_1_title_commons">Зашто не видим виџете ове апликације у листи виџета?</string>
     <string name="faq_1_text_commons">Највероватније јер сте преместили апликацију на СД картицу. Постоји ограничење Андроид система које скрива виџете у том случају. Једино решење је да вратите апликацију у интерно складиште преко подешавања уређаја.</string>
@@ -912,7 +892,7 @@
     <string name="android_lame_title">АндроидЛаме (мп3 кодер)</string>
     <string name="zip4j_title">Zip4j (ЗИП компресија и декомпресија)</string>
     <string name="deprecated_app">ЗАСТАРЕЛО: Ова верзија апликације се више не одржава, набавите Про верзију на хттпс://плаи.гоогле.цом/сторе/аппс/детаилс\?ид=цом.симплемобилетоолс.ккк.про</string>
-    <string name="pro_app_refund">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на hello@fossify.org и добићете га. То олакшава испробавање :)</string>
+    <string name="pro_app_refund">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на satirrdev@proton.me и добићете га. То олакшава испробавање :)</string>
     <string name="developer_description">Група једноставних Андроид апликација отвореног кода са прилагодљивим виџетима, без огласа и непотребних дозвола.</string>
     <string name="close">Затвори</string>
     <string name="error">Грешка: %s</string>
