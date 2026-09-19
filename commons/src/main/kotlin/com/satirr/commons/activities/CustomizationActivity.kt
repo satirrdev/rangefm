@@ -1,5 +1,6 @@
 package com.satirr.commons.activities
 
+import android.content.ActivityNotFoundException
 import android.graphics.Color
 import android.graphics.Typeface
 import android.net.Uri
@@ -311,7 +312,6 @@ class CustomizationActivity : BaseSimpleActivity() {
         updateHeaderColors(getCurrentAccentOrPrimaryColor())
         updateBackgroundColor(getCurrentBackgroundColor())
         updateAutoThemeFields()
-        updateApplyToAllColors()
         handleAccentColorLayout()
     }
 
@@ -600,18 +600,15 @@ class CustomizationActivity : BaseSimpleActivity() {
     private fun setCurrentTextColor(color: Int) {
         curTextColor = color
         updateLabelColors(color)
-        updateApplyToAllColors()
     }
 
     private fun setCurrentBackgroundColor(color: Int) {
         curBackgroundColor = color
         updateBackgroundColor(color)
-        updateApplyToAllColors()
     }
 
     private fun setCurrentPrimaryColor(color: Int) {
         curPrimaryColor = color
-        updateApplyToAllColors()
         updateHeaderColors(color)
     }
 
@@ -699,7 +696,6 @@ class CustomizationActivity : BaseSimpleActivity() {
                 if (hasColorChanged(curAccentColor, color)) {
                     curAccentColor = color
                     colorChanged()
-                    updateApplyToAllColors()
                     updateHeaderColors(curAccentColor)
                     updateTopBarColors(binding.appBar, getCurrentTopBarColor())
                 }
