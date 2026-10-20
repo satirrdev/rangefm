@@ -1,5 +1,6 @@
 package com.satirr.range.dialogs
 
+import android.view.View
 import com.satirr.commons.activities.BaseSimpleActivity
 import com.satirr.commons.extensions.beGone
 import com.satirr.commons.extensions.getAlertDialogBuilder
@@ -25,7 +26,7 @@ class ChangeViewTypeDialog(val activity: BaseSimpleActivity, val path: String = 
 
             changeViewTypeDialogRadio.check(viewToCheck)
             if (!showFolderCheck) {
-                useForThisFolderDivider.beGone()
+                root.findViewById<View>(R.id.use_for_this_folder_divider).beGone()
                 changeViewTypeDialogUseForThisFolder.beGone()
             }
 

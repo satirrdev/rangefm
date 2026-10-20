@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.print.PrintAttributes
 import android.print.PrintManager
 import android.util.Base64
+import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
@@ -49,6 +50,7 @@ class ReadTextActivity : SimpleActivity() {
     private lateinit var searchPrevBtn: ImageView
     private lateinit var searchNextBtn: ImageView
     private lateinit var searchClearBtn: ImageView
+    private lateinit var searchWrapper: View
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -63,6 +65,7 @@ class ReadTextActivity : SimpleActivity() {
         searchPrevBtn = findViewById(R.id.search_previous)
         searchNextBtn = findViewById(R.id.search_next)
         searchClearBtn = findViewById(R.id.search_clear)
+        searchWrapper = findViewById(R.id.search_wrapper)
 
         val uri = if (intent.extras?.containsKey(REAL_FILE_PATH) == true) {
             Uri.fromFile(File(intent.extras?.get(REAL_FILE_PATH).toString()))
@@ -154,7 +157,7 @@ class ReadTextActivity : SimpleActivity() {
 
     private fun openSearch() {
         isSearchActive = true
-        binding.searchWrapper.beVisible()
+        searchWrapper.beVisible()
         showKeyboard(searchQueryET)
 
         binding.readTextView.requestFocus()
@@ -350,7 +353,7 @@ class ReadTextActivity : SimpleActivity() {
             false
         })
 
-        binding.searchWrapper.setBackgroundColor(getProperPrimaryColor())
+        searchWrapper.setBackgroundColor(getProperPrimaryColor())
         val contrastColor = getProperPrimaryColor().getContrastColor()
         arrayListOf(searchPrevBtn, searchNextBtn, searchClearBtn).forEach {
             it.applyColorFilter(contrastColor)
@@ -398,7 +401,7 @@ class ReadTextActivity : SimpleActivity() {
     private fun closeSearch() {
         searchQueryET.text?.clear()
         isSearchActive = false
-        binding.searchWrapper.beGone()
+        searchWrapper.beGone()
         hideKeyboard()
     }
 
