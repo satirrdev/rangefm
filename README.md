@@ -1,6 +1,7 @@
 # Range FM
 
-Range FM is a fast, ad-free, open-source file manager for Android, developed at `satirrdev/rangefm`.
+Range FM is a fast, ad-free, open-source file manager for Android.
+This project forked from Fossify File Manager.
 
 <img alt="Logo" src="graphics/icon.webp" width="120" />
 
@@ -25,14 +26,10 @@ GitHub Actions builds every push to `main` and on manual dispatch. Tag a release
 
 ## License
 
-```
-Copyright (C) 2023 FossifyOrg — this project is a fork of Fossify File Manager.
-
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
-```
 
 See [LICENSE](LICENSE) for the full text.
 
