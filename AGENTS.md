@@ -41,7 +41,7 @@ Android file manager (Kotlin). Two Gradle modules:
 
 ## Github
 
-All changes must be pushed to GitHub (`satirrdev/rangefm`) and built/verified via GitHub CI/CD. **Do not use local build for verification or publishing.** Contact: satirrdev@proton.me
+Repository: `satirrdev/rangefm`. Contact: satirrdev@proton.me
 
 ## Version Control
 
