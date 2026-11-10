@@ -50,3 +50,7 @@ Custom scheme:
 - `2.x.x` → Semi-minor change (adding 3+ features)
 - `3.x.x` → Minor change (1-2 features or bug fixes)
 - `a` → Minor bug fixing
+
+## Second Brain
+
+This repo syncs to `C:\Users\Admin\workspace` (Obsidian vault). For repo-local knowledge: update `brain/rangefm/context.md` via Obsidian CLI (`obsidian create` / `obsidian edit` / `obsidian search query=...`). Global memory lives in `BRAIN.md`; persona in `SOUL.md`.

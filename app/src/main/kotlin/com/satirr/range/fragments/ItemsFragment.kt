@@ -58,6 +58,16 @@ class ItemsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerF
                         createNewItem()
                     }
                 }
+
+                itemsList.addOnScrollListener(object : androidx.recyclerview.widget.RecyclerView.OnScrollListener() {
+                    override fun onScrolled(recyclerView: androidx.recyclerview.widget.RecyclerView, dx: Int, dy: Int) {
+                        if (dy > 0 && itemsFab.isShown) {
+                            itemsFab.hide()
+                        } else if (dy < 0 && !itemsFab.isShown) {
+                            itemsFab.show()
+                        }
+                    }
+                })
             }
         }
     }

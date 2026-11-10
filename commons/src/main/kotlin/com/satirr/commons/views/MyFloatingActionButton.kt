@@ -41,6 +41,9 @@ open class MyFloatingActionButton : FloatingActionButton {
                 insets
             }
         }
+
+        val cornerRadius = context.resources.getDimension(R.dimen.material_button_corner_radius)
+        shapeAppearanceModel = shapeAppearanceModel.toBuilder().setAllCornerSizes(cornerRadius).build()
     }
 
     fun setColors(textColor: Int, accentColor: Int, backgroundColor: Int) {
