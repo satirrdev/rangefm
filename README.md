@@ -5,6 +5,7 @@ This project forked from Fossify File Manager.
 
 <img alt="Logo" src="graphics/icon.webp" width="120" />
 
+- **Material Expressive UI**: Modern M3 Expressive design with dynamic color palettes, fluid spring animations, and ergonomic asymmetric floating components.
 - Swiftly manage your files with compression, transfer, and search.
 - Access frequently used folders with a customizable home folder and favorites.
 - Secure sensitive files with password, pattern, or fingerprint locks.
@@ -22,7 +23,7 @@ Build the APK locally:
 
 The debug APK is output to `app/build/outputs/apk/core/debug/`. It is signed with the debug keystore and can be installed directly.
 
-GitHub Actions builds every push to `main` and on manual dispatch. Tag a release with `v*` (e.g., `v1.1.3`) to create a GitHub Release with the installable APK. Continuous integration is defined in `.github/workflows/android-ci.yml` and `.github/workflows/build.yml`.
+GitHub Actions builds every push to `main` and on manual dispatch. Tag a release with `v*` (e.g., `v1.2.0`) to create a GitHub Release with the installable APK. Continuous integration is defined in `.github/workflows/android-ci.yml` and `.github/workflows/build.yml`.
 
 ## License
 
