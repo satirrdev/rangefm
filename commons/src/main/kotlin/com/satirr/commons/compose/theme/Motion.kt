@@ -1,26 +1,26 @@
 package com.satirr.commons.compose.theme
 
-import androidx.compose.animation.core.AnimationSpec
 import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.SpringSpec
 import androidx.compose.animation.core.spring
 
 object ExpressiveMotion {
-    val SpatialSpring: AnimationSpec<Float> = spring(
+    fun <T> spatialSpring(): SpringSpec<T> = spring(
         dampingRatio = Spring.DampingRatioMediumBouncy,
         stiffness = Spring.StiffnessMediumLow
     )
 
-    val FastSpring: AnimationSpec<Float> = spring(
+    fun <T> fastSpring(): SpringSpec<T> = spring(
         dampingRatio = Spring.DampingRatioNoBouncy,
         stiffness = Spring.StiffnessMedium
     )
 
-    val BouncySpring: AnimationSpec<Float> = spring(
+    fun <T> bouncySpring(): SpringSpec<T> = spring(
         dampingRatio = Spring.DampingRatioHighBouncy,
         stiffness = Spring.StiffnessLow
     )
 
-    val SheetSpring: AnimationSpec<Float> = spring(
+    fun <T> sheetSpring(): SpringSpec<T> = spring(
         dampingRatio = Spring.DampingRatioLowBouncy,
         stiffness = Spring.StiffnessMediumLow
     )

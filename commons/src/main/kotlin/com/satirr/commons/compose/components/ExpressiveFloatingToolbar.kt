@@ -35,13 +35,13 @@ fun ExpressiveFloatingToolbar(
     AnimatedVisibility(
         visible = isVisible,
         enter = slideInVertically(
-            animationSpec = ExpressiveMotion.SpatialSpring,
+            animationSpec = ExpressiveMotion.spatialSpring(),
             initialOffsetY = { it }
-        ) + fadeIn(animationSpec = ExpressiveMotion.SpatialSpring),
+        ) + fadeIn(animationSpec = ExpressiveMotion.spatialSpring()),
         exit = slideOutVertically(
-            animationSpec = ExpressiveMotion.SpatialSpring,
+            animationSpec = ExpressiveMotion.spatialSpring(),
             targetOffsetY = { it }
-        ) + fadeOut(animationSpec = ExpressiveMotion.FastSpring),
+        ) + fadeOut(animationSpec = ExpressiveMotion.fastSpring()),
         modifier = modifier
     ) {
         Surface(

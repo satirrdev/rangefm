@@ -44,7 +44,7 @@ fun ExpressiveMorphingFab(
             defaultElevation = FabDefaultElevation,
             pressedElevation = FabPressedElevation
         ),
-        modifier = modifier.animateContentSize(animationSpec = ExpressiveMotion.SpatialSpring)
+        modifier = modifier.animateContentSize(animationSpec = ExpressiveMotion.spatialSpring())
     ) {
         Row(
             modifier = Modifier.padding(horizontal = FabHorizontalPadding, vertical = FabVerticalPadding),
