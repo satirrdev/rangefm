@@ -227,6 +227,15 @@ class ItemsAdapter(
         return listItems.indexOfFirst { it.path.hashCode() == key }
     }
 
+    var onSelectionChangedListener: ((selectedCount: Int, totalCount: Int) -> Unit)? = null
+
+    override fun onSelectionChanged(selectedCount: Int, totalCount: Int) {
+        super.onSelectionChanged(selectedCount, totalCount)
+        onSelectionChangedListener?.invoke(selectedCount, totalCount)
+    }
+
+    fun executeAction(id: Int) = actionItemPressed(id)
+
     override fun onActionModeCreated() {
         swipeRefreshLayout?.isRefreshing = false
         swipeRefreshLayout?.isEnabled = false

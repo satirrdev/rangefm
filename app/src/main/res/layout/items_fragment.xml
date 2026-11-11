@@ -93,13 +93,19 @@
             </com.satirr.range.views.MySwipeRefreshLayout>
         </RelativeLayout>
 
-        <com.satirr.commons.views.MyFloatingActionButton
-            android:id="@+id/items_fab"
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/items_selection_toolbar_compose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/items_fab_compose"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_margin="@dimen/activity_margin"
-            android:src="@drawable/ic_plus_vector" />
+            android:layout_margin="@dimen/activity_margin" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </com.satirr.range.fragments.ItemsFragment>
