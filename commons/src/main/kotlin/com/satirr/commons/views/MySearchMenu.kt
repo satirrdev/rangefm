@@ -14,6 +14,7 @@ import com.satirr.commons.extensions.getContrastColor
 import com.satirr.commons.extensions.getProperBackgroundColor
 import com.satirr.commons.extensions.getProperPrimaryColor
 import com.satirr.commons.extensions.hideKeyboard
+import com.satirr.commons.extensions.isDynamicTheme
 import com.satirr.commons.extensions.onTextChangeListener
 import com.satirr.commons.extensions.removeBit
 import com.satirr.commons.extensions.showKeyboard

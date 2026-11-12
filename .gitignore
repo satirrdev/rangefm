@@ -15,3 +15,5 @@ fastlane/report.xml
 AGENT.md
 AGENTS.mdy
 AGENST.md
+*.py
+/scripts/

@@ -5,6 +5,7 @@ import android.content.res.ColorStateList
 import android.util.AttributeSet
 import com.google.android.material.textfield.TextInputLayout
 import com.satirr.commons.extensions.adjustAlpha
+import com.satirr.commons.extensions.isDynamicTheme
 import com.satirr.commons.extensions.value
 import com.satirr.commons.helpers.FontHelper
 import com.satirr.commons.helpers.HIGHER_ALPHA
