@@ -26,6 +26,7 @@ import com.satirr.range.helpers.RootHelpers
 import com.satirr.range.interfaces.ItemOperationsListener
 import com.satirr.range.models.ListItem
 import java.io.File
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Add
@@ -34,6 +35,7 @@ import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material.icons.rounded.ContentCopy
 import androidx.compose.material.icons.rounded.DeleteOutline
 import androidx.compose.material.icons.rounded.DriveFileMove
+import androidx.compose.material.icons.rounded.MoreVert
 import androidx.compose.material.icons.rounded.SelectAll
 import androidx.compose.material.icons.rounded.Share
 import androidx.compose.material3.Icon
@@ -44,10 +46,13 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ViewCompositionStrategy
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.satirr.commons.compose.components.ExpressiveDropdownMenu
+import com.satirr.commons.compose.components.ExpressiveDropdownMenuItem
 import com.satirr.commons.compose.components.ExpressiveFloatingToolbar
 import com.satirr.commons.compose.components.ExpressiveMorphingFab
 import com.satirr.commons.compose.theme.AppTheme
@@ -197,6 +202,47 @@ class ItemsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerF
                             )
                         }
 
+                        var isMoreMenuExpanded by remember { mutableStateOf(false) }
+
+                        Box {
+                            IconButton(
+                                onClick = { isMoreMenuExpanded = true }
+                            ) {
+                                Icon(
+                                    imageVector = Icons.Rounded.MoreVert,
+                                    contentDescription = stringResource(R.string.more_options),
+                                    tint = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+
+                            ExpressiveDropdownMenu(
+                                expanded = isMoreMenuExpanded,
+                                onDismissRequest = { isMoreMenuExpanded = false }
+                            ) {
+                                ExpressiveDropdownMenuItem(
+                                    text = stringResource(R.string.rename),
+                                    onClick = {
+                                        isMoreMenuExpanded = false
+                                        getRecyclerAdapter()?.executeAction(R.id.cab_rename)
+                                    }
+                                )
+                                ExpressiveDropdownMenuItem(
+                                    text = stringResource(R.string.properties),
+                                    onClick = {
+                                        isMoreMenuExpanded = false
+                                        getRecyclerAdapter()?.executeAction(R.id.cab_properties)
+                                    }
+                                )
+                                ExpressiveDropdownMenuItem(
+                                    text = stringResource(R.string.compress),
+                                    onClick = {
+                                        isMoreMenuExpanded = false
+                                        getRecyclerAdapter()?.executeAction(R.id.cab_compress)
+                                    }
+                                )
+                            }
+                        }
+
                         IconButton(
                             onClick = { finishActMode() }
                         ) {
@@ -221,10 +267,12 @@ class ItemsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerF
         }
 
         binding.apply {
-            val properPrimaryColor = context!!.getProperPrimaryColor()
-            itemsFastscroller.updateColors(properPrimaryColor)
-            progressBar.setIndicatorColor(properPrimaryColor)
-            progressBar.trackColor = properPrimaryColor.adjustAlpha(LOWER_ALPHA)
+            if (!context!!.isDynamicTheme()) {
+                val properPrimaryColor = context!!.getProperPrimaryColor()
+                itemsFastscroller.updateColors(properPrimaryColor)
+                progressBar.setIndicatorColor(properPrimaryColor)
+                progressBar.trackColor = properPrimaryColor.adjustAlpha(LOWER_ALPHA)
+            }
 
             if (currentPath != "") {
                 breadcrumbs.updateColor(textColor)

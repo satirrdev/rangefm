@@ -25,6 +25,7 @@ open class MyCompatRadioButton : AppCompatRadioButton {
     }
 
     fun setColors(textColor: Int, accentColor: Int, backgroundColor: Int) {
+        if (context.isDynamicTheme()) return
         setTextColor(textColor)
         val colorStateList = ColorStateList(
             arrayOf(
