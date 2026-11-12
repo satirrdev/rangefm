@@ -9,6 +9,7 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.font.Typeface
 import com.satirr.commons.compose.extensions.config
 import com.satirr.commons.compose.theme.model.Theme
@@ -129,21 +130,21 @@ private fun getCustomTypography(context: Context): Typography {
     
     val defaultTypography = Typography()
     return Typography(
-        displayLarge = defaultTypography.displayLarge.copy(fontFamily = fontFamily),
-        displayMedium = defaultTypography.displayMedium.copy(fontFamily = fontFamily),
-        displaySmall = defaultTypography.displaySmall.copy(fontFamily = fontFamily),
-        headlineLarge = defaultTypography.headlineLarge.copy(fontFamily = fontFamily),
-        headlineMedium = defaultTypography.headlineMedium.copy(fontFamily = fontFamily),
-        headlineSmall = defaultTypography.headlineSmall.copy(fontFamily = fontFamily),
-        titleLarge = defaultTypography.titleLarge.copy(fontFamily = fontFamily),
-        titleMedium = defaultTypography.titleMedium.copy(fontFamily = fontFamily),
-        titleSmall = defaultTypography.titleSmall.copy(fontFamily = fontFamily),
+        displayLarge = defaultTypography.displayLarge.copy(fontFamily = fontFamily, fontWeight = FontWeight.Bold),
+        displayMedium = defaultTypography.displayMedium.copy(fontFamily = fontFamily, fontWeight = FontWeight.Bold),
+        displaySmall = defaultTypography.displaySmall.copy(fontFamily = fontFamily, fontWeight = FontWeight.Bold),
+        headlineLarge = defaultTypography.headlineLarge.copy(fontFamily = fontFamily, fontWeight = FontWeight.Bold),
+        headlineMedium = defaultTypography.headlineMedium.copy(fontFamily = fontFamily, fontWeight = FontWeight.Bold),
+        headlineSmall = defaultTypography.headlineSmall.copy(fontFamily = fontFamily, fontWeight = FontWeight.SemiBold),
+        titleLarge = defaultTypography.titleLarge.copy(fontFamily = fontFamily, fontWeight = FontWeight.SemiBold),
+        titleMedium = defaultTypography.titleMedium.copy(fontFamily = fontFamily, fontWeight = FontWeight.Medium),
+        titleSmall = defaultTypography.titleSmall.copy(fontFamily = fontFamily, fontWeight = FontWeight.Medium),
         bodyLarge = defaultTypography.bodyLarge.copy(fontFamily = fontFamily),
         bodyMedium = defaultTypography.bodyMedium.copy(fontFamily = fontFamily),
         bodySmall = defaultTypography.bodySmall.copy(fontFamily = fontFamily),
-        labelLarge = defaultTypography.labelLarge.copy(fontFamily = fontFamily),
-        labelMedium = defaultTypography.labelMedium.copy(fontFamily = fontFamily),
-        labelSmall = defaultTypography.labelSmall.copy(fontFamily = fontFamily),
+        labelLarge = defaultTypography.labelLarge.copy(fontFamily = fontFamily, fontWeight = FontWeight.Medium),
+        labelMedium = defaultTypography.labelMedium.copy(fontFamily = fontFamily, fontWeight = FontWeight.Medium),
+        labelSmall = defaultTypography.labelSmall.copy(fontFamily = fontFamily, fontWeight = FontWeight.Medium),
     )
 }
 

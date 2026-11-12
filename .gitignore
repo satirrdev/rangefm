@@ -1,4 +1,5 @@
 *.iml
+*.apk
 *.aab
 .gradle
 /local.properties
@@ -12,4 +13,9 @@ fastlane/fastlane.json
 fastlane/report.xml
 .kotlin/
 AGENT.md
+AGENTS.md
 AGENTS.mdy
+AGENST.md
+NEXTMOVE.md
+*.py
+/scripts/

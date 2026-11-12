@@ -14,6 +14,7 @@ import com.satirr.commons.extensions.getContrastColor
 import com.satirr.commons.extensions.getProperBackgroundColor
 import com.satirr.commons.extensions.getProperPrimaryColor
 import com.satirr.commons.extensions.hideKeyboard
+import com.satirr.commons.extensions.isDynamicTheme
 import com.satirr.commons.extensions.onTextChangeListener
 import com.satirr.commons.extensions.removeBit
 import com.satirr.commons.extensions.showKeyboard
@@ -108,9 +109,13 @@ open class MySearchMenu(context: Context, attrs: AttributeSet) : MyAppBarLayout(
 
         setBackgroundColor(backgroundColor)
         binding.topToolbarSearchIcon.applyColorFilter(contrastColor)
-        binding.toolbarContainer.background?.applyColorFilter(
-            color = context.getProperPrimaryColor().adjustAlpha(LOWER_ALPHA)
-        )
+        if (context.isDynamicTheme()) {
+            binding.toolbarContainer.background?.clearColorFilter()
+        } else {
+            binding.toolbarContainer.background?.applyColorFilter(
+                color = context.getProperPrimaryColor().adjustAlpha(LOWER_ALPHA)
+            )
+        }
         binding.topToolbarSearch.setTextColor(contrastColor)
         binding.topToolbarSearch.setHintTextColor(contrastColor.adjustAlpha(MEDIUM_ALPHA))
         (context as? BaseSimpleActivity)?.updateTopBarColors(this, backgroundColor)

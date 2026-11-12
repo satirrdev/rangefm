@@ -6,6 +6,7 @@ import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatRadioButton
 import com.satirr.commons.extensions.adjustAlpha
 import com.satirr.commons.extensions.applyFontToTextView
+import com.satirr.commons.extensions.isDynamicTheme
 
 open class MyCompatRadioButton : AppCompatRadioButton {
     constructor(context: Context) : super(context) {
@@ -25,6 +26,7 @@ open class MyCompatRadioButton : AppCompatRadioButton {
     }
 
     fun setColors(textColor: Int, accentColor: Int, backgroundColor: Int) {
+        if (context.isDynamicTheme()) return
         setTextColor(textColor)
         val colorStateList = ColorStateList(
             arrayOf(

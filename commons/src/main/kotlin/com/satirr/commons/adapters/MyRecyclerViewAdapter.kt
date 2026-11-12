@@ -87,6 +87,7 @@ abstract class MyRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyc
                 actBarTextView!!.setTextColor(bgColor.getContrastColor())
                 activity.updateMenuItemColors(menu, baseColor = bgColor)
                 onActionModeCreated()
+                onSelectionChanged(selectedKeys.size, getSelectableItemCount())
 
                 if (activity.isDynamicTheme()) {
                     actBarTextView?.onGlobalLayout {
@@ -117,6 +118,7 @@ abstract class MyRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyc
                 actMode = null
                 lastLongPressedItem = -1
                 onActionModeDestroyed()
+                onSelectionChanged(0, getSelectableItemCount())
             }
         }
     }
@@ -148,7 +150,7 @@ abstract class MyRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyc
         }
     }
 
-    private fun updateTitle() {
+    protected open fun updateTitle() {
         val selectableItemCount = getSelectableItemCount()
         val selectedCount = Math.min(selectedKeys.size, selectableItemCount)
         val oldTitle = actBarTextView?.text
@@ -157,7 +159,10 @@ abstract class MyRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyc
             actBarTextView?.text = newTitle
             actMode?.invalidate()
         }
+        onSelectionChanged(selectedCount, selectableItemCount)
     }
+
+    protected open fun onSelectionChanged(selectedCount: Int, totalCount: Int) {}
 
     fun itemLongClicked(position: Int) {
         recyclerView.setDragSelectActive(position)
