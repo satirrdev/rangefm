@@ -66,7 +66,7 @@ fun Context.getProperBackgroundColor() = when {
 
 fun Context.getProperPrimaryColor() = when {
     isDynamicTheme() -> MaterialColors.getColor(
-        this, com.google.android.material.R.attr.colorPrimary, resources.getColor(R.color.you_primary_color, theme)
+        this, androidx.appcompat.R.attr.colorPrimary, resources.getColor(R.color.you_primary_color, theme)
     )
     isWhiteTheme() || isBlackAndWhiteTheme() -> baseConfig.accentColor
     else -> baseConfig.primaryColor
