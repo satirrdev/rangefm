@@ -49,7 +49,7 @@ abstract class MyRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyc
 
     abstract fun onActionModeDestroyed()
 
-    protected fun isOneItemSelected() = selectedKeys.size == 1
+    fun isOneItemSelected() = selectedKeys.size == 1
 
     init {
         actModeCallback = object : MyActionModeCallback() {

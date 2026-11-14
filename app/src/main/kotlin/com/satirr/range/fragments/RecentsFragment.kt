@@ -91,6 +91,7 @@ class RecentsFragment(context: Context, attributeSet: AttributeSet) : MyViewPage
 
     override fun onResume(textColor: Int) {
         binding.recentsPlaceholder.setTextColor(textColor)
+        binding.recentsSwipeRefresh.updateColors()
 
         getRecyclerAdapter()?.apply {
             updatePrimaryColor()

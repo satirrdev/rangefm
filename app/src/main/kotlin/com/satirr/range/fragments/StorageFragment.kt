@@ -185,8 +185,10 @@ class StorageFragment(
 
         binding.apply {
             searchHolder.setBackgroundColor(context.getProperBackgroundColor())
-            progressBar.setIndicatorColor(properPrimaryColor)
-            progressBar.trackColor = properPrimaryColor.adjustAlpha(LOWER_ALPHA)
+            if (!context.isDynamicTheme()) {
+                progressBar.setIndicatorColor(properPrimaryColor)
+                progressBar.trackColor = properPrimaryColor.adjustAlpha(LOWER_ALPHA)
+            }
         }
 
         ensureBackgroundThread {

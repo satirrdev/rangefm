@@ -232,6 +232,7 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
 
     fun updateColor(color: Int) {
         textColor = color
+        accentColor = context.getProperPrimaryColor()
         setBreadcrumb(lastPath)
     }
 

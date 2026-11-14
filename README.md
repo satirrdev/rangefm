@@ -1,43 +1,72 @@
-# Range FM
+<div align="center">
+  <img src="graphics/icon.webp" width="96" alt="Range FM Icon" />
+  <h1>Range FM</h1>
+  <p>Android file manager with Material 3 Expressive and dynamic wallpaper theming.</p>
 
-Range FM is a fast, ad-free, open-source file manager for Android.
-This project forked from Fossify File Manager.
+  <p>
+    <img src="https://img.shields.io/badge/Platform-Android_8.0+_(API_26+)-3DDC84?logo=android&logoColor=white" alt="Platform" />
+    <img src="https://img.shields.io/badge/Target_SDK-36-blue" alt="Target SDK" />
+    <img src="https://img.shields.io/badge/License-GPL_v3-blue.svg" alt="License: GPL v3" />
+    <img src="https://img.shields.io/badge/PR-Open_(#2)-orange" alt="PR #2" />
+  </p>
+</div>
 
-<img alt="Logo" src="graphics/icon.webp" width="120" />
+Fork of Fossify File Manager, redesigned for modern Android using Material 3 Expressive components and Jetpack Compose.
 
-- **Material Expressive UI**: Modern M3 Expressive design with dynamic color palettes, fluid spring animations, and ergonomic asymmetric floating components.
-- Swiftly manage your files with compression, transfer, and search.
-- Access frequently used folders with a customizable home folder and favorites.
-- Secure sensitive files with password, pattern, or fingerprint locks.
-- No internet access. Your files stay on your device.
-- Navigate root files, SD cards, and USB devices.
-- Light file editor with zoom gestures.
+## Screenshots
+
+<!-- Add device screenshots here -->
+| File List & Search | Selection Toolbar | Dark Mode |
+|---|---|---|
+| *(Screenshot placeholder)* | *(Screenshot placeholder)* | *(Screenshot placeholder)* |
+
+## Features
+
+### Material 3 Expressive UI
+- **Dynamic Color (Monet)**: Theme colors adapt to wallpaper palette on Android 12+ devices.
+- **Tonal Surfaces**: Surface container roles replace elevation drop shadows.
+- **Expressive Search**: Pill-shaped search bar with 28dp corners and container high tonal fill.
+- **Floating Toolbar**: Asymmetric bottom selection bar with actions and dropdown menu.
+- **Morphing FAB**: Adaptive floating action button with spring physics transitions.
+
+### Core File Operations
+- **Storage Access**: Manage internal storage, SD cards, USB OTG, and root directories.
+- **File Manipulation**: Search, copy, move, rename, compress (ZIP), and inspect file properties.
+- **Security Lock**: Protect directories with fingerprint biometric, PIN, or pattern.
+- **Text Editor**: Built-in file editor with zoom gestures.
+- **Zero Internet Access**: No `android.permission.INTERNET`. All operations remain offline.
+
+## Architecture
+
+Hybrid architecture migrating from legacy Views to Jetpack Compose:
+- **`:app`**: Application entry point, navigation fragments, file adapters (`com.satirr.range`).
+- **`:commons`**: Shared library containing M3 Expressive theme tokens, Compose components, and base dialogs (`com.satirr.commons`).
 
 ## Building
 
-Build the APK locally:
+Prerequisites: JDK 17, Android SDK with compile/target API 36.
 
 ```bash
+# Debug APK
 ./gradlew :app:assembleCoreDebug
+
+# Code quality checks
+./gradlew :app:lintDebug
+./gradlew detekt
 ```
 
-The debug APK is output to `app/build/outputs/apk/core/debug/`. It is signed with the debug keystore and can be installed directly.
+Output APK path: `app/build/outputs/apk/core/debug/rangefm-4-core-debug.apk`.
 
-GitHub Actions builds every push to `main` and on manual dispatch. Tag a release with `v*` (e.g., `v1.2.0`) to create a GitHub Release with the installable APK. Continuous integration is defined in `.github/workflows/android-ci.yml` and `.github/workflows/build.yml`.
+CI workflow runs on GitHub Actions for pushes and tags matching `v*`.
+
+## Versioning
+
+Scheme documented in project guidelines:
+- `1.x.x`: Major architectural changes.
+- `2.x.x`: Semi-minor release (3+ features).
+- `3.x.x`: Minor release (1-2 features or bug fixes).
+- `a`: Hotfix suffix.
 
 ## License
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-See [LICENSE](LICENSE) for the full text.
-
-## Version Control
-
-Custom scheme at `AGENTS.md`:
-- `1.x.x` → Major change (mostly changing/modifying all of the file)
-- `2.x.x` → Semi-minor change (adding 3+ features)
-- `3.x.x` → Minor change (1-2 features or bug fixes)
-- `a` → Minor bug fixing
+GNU General Public License v3.0. See [LICENSE](LICENSE) for terms.

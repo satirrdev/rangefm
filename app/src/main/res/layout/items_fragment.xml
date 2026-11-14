@@ -30,16 +30,16 @@
                 android:id="@+id/progress_bar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
+                android:layout_below="@+id/breadcrumbs"
                 android:indeterminate="true"
                 android:visibility="gone"
-                app:indicatorSize="6dp"
-                app:trackCornerRadius="4dp"
+                app:trackThickness="4dp"
+                app:trackCornerRadius="2dp"
                 app:trackColor="?attr/colorSurfaceContainerHighest"
                 app:indicatorColor="?attr/colorPrimary"
                 app:hideAnimationBehavior="outward"
                 app:showAnimationBehavior="inward"
-                app:showDelay="100"
+                app:showDelay="0"
                 tools:visibility="visible" />
 
             <com.satirr.commons.views.MyTextView

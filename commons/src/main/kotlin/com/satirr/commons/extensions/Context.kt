@@ -28,6 +28,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Environment
 import android.os.Handler
+import com.google.android.material.color.MaterialColors
 import android.os.Looper
 import android.os.UserManager
 import android.provider.BaseColumns
@@ -1219,7 +1220,13 @@ fun Context.updateBottomTabItemColors(view: View?, isActive: Boolean, drawableId
     val color = if (isActive) {
         getProperPrimaryColor()
     } else {
-        getProperTextColor()
+        if (isDynamicTheme()) {
+            MaterialColors.getColor(
+                this, com.google.android.material.R.attr.colorOnSurfaceVariant, getProperTextColor()
+            )
+        } else {
+            getProperTextColor()
+        }
     }
 
     if (drawableId != null) {

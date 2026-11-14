@@ -19,3 +19,7 @@ AGENST.md
 NEXTMOVE.md
 *.py
 /scripts/
+/.agents/
+/.claude/
+/skills-lock.json
+/icon.png

@@ -168,12 +168,18 @@ class ItemsAdapter(
         timeFormat = activity.getTimeFormat()
     }
 
+    var clearActionModeMenu = false
+
     override fun getActionMenuId() = R.menu.cab
 
     override fun prepareActionMode(menu: Menu) {
+        if (clearActionModeMenu) {
+            menu.clear()
+            return
+        }
+
         menu.apply {
-            findItem(R.id.cab_decompress).isVisible =
-                getSelectedFileDirItems().map { it.path }.any { it.isZipFile() }
+            findItem(R.id.cab_decompress).isVisible = canDecompress()
             findItem(R.id.cab_confirm_selection).isVisible = isPickMultipleIntent
             findItem(R.id.cab_copy_path).isVisible = isOneItemSelected()
             findItem(R.id.cab_open_with).isVisible = isOneFileSelected()
@@ -283,23 +289,25 @@ class ItemsAdapter(
         return listItems.firstOrNull { it.path.hashCode() == key }
     }
 
-    private fun isOneFileSelected(): Boolean {
+    fun isOneFileSelected(): Boolean {
         return isOneItemSelected() && getItemWithKey(selectedKeys.first())?.isDirectory == false
     }
 
-    private fun checkHideBtnVisibility(menu: Menu) {
-        var hiddenCnt = 0
-        var unhiddenCnt = 0
-        getSelectedFileDirItems().map { it.name }.forEach {
-            if (it.startsWith(".")) {
-                hiddenCnt++
-            } else {
-                unhiddenCnt++
-            }
-        }
+    fun canDecompress(): Boolean {
+        return getSelectedFileDirItems().any { it.path.isZipFile() }
+    }
 
-        menu.findItem(R.id.cab_hide).isVisible = unhiddenCnt > 0
-        menu.findItem(R.id.cab_unhide).isVisible = hiddenCnt > 0
+    fun hasHiddenItems(): Boolean {
+        return getSelectedFileDirItems().any { it.name.startsWith(".") }
+    }
+
+    fun hasUnhiddenItems(): Boolean {
+        return getSelectedFileDirItems().any { !it.name.startsWith(".") }
+    }
+
+    private fun checkHideBtnVisibility(menu: Menu) {
+        menu.findItem(R.id.cab_hide)?.isVisible = hasUnhiddenItems()
+        menu.findItem(R.id.cab_unhide)?.isVisible = hasHiddenItems()
     }
 
     private fun confirmSelection() {

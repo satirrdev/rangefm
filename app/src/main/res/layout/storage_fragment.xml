@@ -33,9 +33,13 @@
             android:layout_alignParentTop="true"
             android:indeterminate="true"
             android:visibility="gone"
+            app:trackThickness="4dp"
+            app:trackCornerRadius="2dp"
+            app:trackColor="?attr/colorSurfaceContainerHighest"
+            app:indicatorColor="?attr/colorPrimary"
             app:hideAnimationBehavior="outward"
             app:showAnimationBehavior="inward"
-            app:showDelay="250"
+            app:showDelay="0"
             tools:visibility="visible" />
 
         <com.satirr.commons.views.MyTextView

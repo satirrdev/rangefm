@@ -417,6 +417,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     private fun saveChanges(finishAfterSave: Boolean) {
         val didAppIconColorChange = curAppIconColor != originalAppIconColor
         baseConfig.apply {
+            isSystemThemeEnabled = curSelectedThemeId == THEME_SYSTEM
             textColor = curTextColor
             backgroundColor = curBackgroundColor
             primaryColor = curPrimaryColor
@@ -746,26 +747,25 @@ class CustomizationActivity : BaseSimpleActivity() {
         }
     }
 
-    private fun getCurrentTextColor() = when (binding.customizationTheme.value) {
-        getMaterialYouString() -> resources.getColor(R.color.you_neutral_text_color)
+    private fun isCurrentSystemTheme() = curSelectedThemeId == THEME_SYSTEM
+
+    private fun getCurrentTextColor() = when {
+        isCurrentSystemTheme() -> getProperTextColor()
         else -> curTextColor
     }
 
-    private fun getCurrentBackgroundColor() = when (binding.customizationTheme.value) {
-        getMaterialYouString() -> resources.getColor(R.color.you_background_color)
+    private fun getCurrentBackgroundColor() = when {
+        isCurrentSystemTheme() -> getProperBackgroundColor()
         else -> curBackgroundColor
     }
 
-    private fun getCurrentPrimaryColor() = when (binding.customizationTheme.value) {
-        getMaterialYouString() -> resources.getColor(R.color.you_primary_color)
+    private fun getCurrentPrimaryColor() = when {
+        isCurrentSystemTheme() -> getProperPrimaryColor()
         else -> curPrimaryColor
     }
 
     private fun getCurrentTopBarColor() = when {
-        binding.customizationTheme.value == getMaterialYouString() -> {
-            resources.getColor(R.color.you_status_bar_color)
-        }
-
+        isCurrentSystemTheme() -> getProperStatusBarColor()
         isCurrentWhiteTheme() || isCurrentBlackAndWhiteTheme() -> curAccentColor
         else -> curPrimaryColor
     }
