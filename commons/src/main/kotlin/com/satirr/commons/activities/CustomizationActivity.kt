@@ -19,7 +19,9 @@ import com.satirr.commons.extensions.beVisibleIf
 import com.satirr.commons.extensions.checkAppIconColor
 import com.satirr.commons.extensions.getColoredMaterialStatusBarColor
 import com.satirr.commons.extensions.getFilenameFromUri
+import com.satirr.commons.extensions.getProperBackgroundColor
 import com.satirr.commons.extensions.getProperPrimaryColor
+import com.satirr.commons.extensions.getProperStatusBarColor
 import com.satirr.commons.extensions.getProperTextColor
 import com.satirr.commons.extensions.getThemeId
 import com.satirr.commons.extensions.isDynamicTheme

@@ -28,6 +28,7 @@ import com.satirr.commons.extensions.getLongValue
 import com.satirr.commons.extensions.getProperBackgroundColor
 import com.satirr.commons.extensions.getProperPrimaryColor
 import com.satirr.commons.extensions.getStringValue
+import com.satirr.commons.extensions.isDynamicTheme
 import com.satirr.commons.extensions.normalizeString
 import com.satirr.commons.extensions.queryCursor
 import com.satirr.commons.extensions.showErrorToast
