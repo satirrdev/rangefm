@@ -26,6 +26,36 @@ import com.satirr.range.helpers.RootHelpers
 import com.satirr.range.interfaces.ItemOperationsListener
 import com.satirr.range.models.ListItem
 import java.io.File
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.Add
+import androidx.compose.material.icons.rounded.Check
+import androidx.compose.material.icons.rounded.Close
+import androidx.compose.material.icons.rounded.ContentCopy
+import androidx.compose.material.icons.rounded.DeleteOutline
+import androidx.compose.material.icons.rounded.DriveFileMove
+import androidx.compose.material.icons.rounded.MoreVert
+import androidx.compose.material.icons.rounded.SelectAll
+import androidx.compose.material.icons.rounded.Share
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.ViewCompositionStrategy
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.satirr.commons.compose.components.ExpressiveDropdownMenu
+import com.satirr.commons.compose.components.ExpressiveDropdownMenuItem
+import com.satirr.commons.compose.components.ExpressiveFloatingToolbar
+import com.satirr.commons.compose.components.ExpressiveMorphingFab
+import com.satirr.commons.compose.theme.AppTheme
 
 class ItemsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerFragment<MyViewPagerFragment.ItemsInnerBinding>(context, attributeSet),
     ItemOperationsListener,
@@ -39,6 +69,17 @@ class ItemsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerF
     private var itemsIgnoringSearch = ArrayList<ListItem>()
     private lateinit var binding: ItemsFragmentBinding
 
+    private val isFabExpandedState = mutableStateOf(true)
+    private val isFabVisibleState = mutableStateOf(true)
+    private val isCreateDocumentState = mutableStateOf(false)
+    private val selectedItemsCountState = mutableIntStateOf(0)
+    private val totalSelectableCountState = mutableIntStateOf(0)
+    private val isOneItemSelectedState = mutableStateOf(false)
+    private val isOneFileSelectedState = mutableStateOf(false)
+    private val canDecompressState = mutableStateOf(false)
+    private val hasHiddenItemsState = mutableStateOf(false)
+    private val hasUnhiddenItemsState = mutableStateOf(false)
+
     override fun onFinishInflate() {
         super.onFinishInflate()
         binding = ItemsFragmentBinding.bind(this)
@@ -51,11 +92,254 @@ class ItemsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerF
             binding.apply {
                 breadcrumbs.listener = this@ItemsFragment
                 itemsSwipeRefresh.setOnRefreshListener { refreshFragment() }
-                itemsFab.setOnClickListener {
-                    if (isCreateDocumentIntent) {
-                        (activity as MainActivity).createDocumentConfirmed(currentPath)
-                    } else {
-                        createNewItem()
+
+                itemsList.addOnScrollListener(object : androidx.recyclerview.widget.RecyclerView.OnScrollListener() {
+                    override fun onScrolled(recyclerView: androidx.recyclerview.widget.RecyclerView, dx: Int, dy: Int) {
+                        if (dy > 4) {
+                            isFabExpandedState.value = false
+                        } else if (dy < -4) {
+                            isFabExpandedState.value = true
+                        }
+                    }
+                })
+
+                setupComposeViews()
+            }
+        }
+    }
+
+    override fun updateIsCreateDocumentIntent(isCreateDocumentIntent: Boolean) {
+        super.updateIsCreateDocumentIntent(isCreateDocumentIntent)
+        isCreateDocumentState.value = isCreateDocumentIntent
+    }
+
+    private fun setupComposeViews() {
+        binding.itemsFabCompose.apply {
+            setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed)
+            setContent {
+                AppTheme {
+                    val isExpanded by remember { isFabExpandedState }
+                    val isVisible by remember { isFabVisibleState }
+                    val isCreateDoc by remember { isCreateDocumentState }
+                    val selectedCount by remember { selectedItemsCountState }
+
+                    if (isVisible && selectedCount == 0) {
+                        ExpressiveMorphingFab(
+                            isExpanded = isExpanded,
+                            icon = if (isCreateDoc) Icons.Rounded.Check else Icons.Rounded.Add,
+                            label = if (isCreateDoc) stringResource(R.string.ok) else stringResource(R.string.new_item),
+                            onClick = {
+                                if (isCreateDocumentIntent) {
+                                    (this@ItemsFragment.activity as MainActivity).createDocumentConfirmed(currentPath)
+                                } else {
+                                    createNewItem()
+                                }
+                            }
+                        )
+                    }
+                }
+            }
+        }
+
+        binding.itemsSelectionToolbarCompose.apply {
+            setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed)
+            setContent {
+                AppTheme {
+                    val selectedCount by remember { selectedItemsCountState }
+                    val isOneItem by remember { isOneItemSelectedState }
+                    val isOneFile by remember { isOneFileSelectedState }
+                    val canDecompress by remember { canDecompressState }
+                    val hasHidden by remember { hasHiddenItemsState }
+                    val hasUnhidden by remember { hasUnhiddenItemsState }
+
+                    ExpressiveFloatingToolbar(
+                        isVisible = selectedCount > 0
+                    ) {
+                        Text(
+                            text = "$selectedCount",
+                            style = MaterialTheme.typography.titleMedium,
+                            color = MaterialTheme.colorScheme.onSurface,
+                            modifier = Modifier.padding(horizontal = 8.dp)
+                        )
+
+                        if (isPickMultipleIntent) {
+                            IconButton(
+                                onClick = { getRecyclerAdapter()?.executeAction(R.id.cab_confirm_selection) }
+                            ) {
+                                Icon(
+                                    imageVector = Icons.Rounded.Check,
+                                    contentDescription = stringResource(R.string.confirm_selection),
+                                    tint = MaterialTheme.colorScheme.primary
+                                )
+                            }
+                        }
+
+                        IconButton(
+                            onClick = { getRecyclerAdapter()?.executeAction(R.id.cab_select_all) }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Rounded.SelectAll,
+                                contentDescription = stringResource(R.string.select_all),
+                                tint = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+
+                        IconButton(
+                            onClick = { getRecyclerAdapter()?.executeAction(R.id.cab_share) }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Rounded.Share,
+                                contentDescription = stringResource(R.string.share),
+                                tint = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+
+                        IconButton(
+                            onClick = { getRecyclerAdapter()?.executeAction(R.id.cab_copy_to) }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Rounded.ContentCopy,
+                                contentDescription = stringResource(R.string.copy),
+                                tint = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+
+                        IconButton(
+                            onClick = { getRecyclerAdapter()?.executeAction(R.id.cab_move_to) }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Rounded.DriveFileMove,
+                                contentDescription = stringResource(R.string.move),
+                                tint = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+
+                        IconButton(
+                            onClick = { getRecyclerAdapter()?.executeAction(R.id.cab_delete) }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Rounded.DeleteOutline,
+                                contentDescription = stringResource(R.string.delete),
+                                tint = MaterialTheme.colorScheme.error
+                            )
+                        }
+
+                        var isMoreMenuExpanded by remember { mutableStateOf(false) }
+
+                        Box {
+                            IconButton(
+                                onClick = { isMoreMenuExpanded = true }
+                            ) {
+                                Icon(
+                                    imageVector = Icons.Rounded.MoreVert,
+                                    contentDescription = stringResource(R.string.more_options),
+                                    tint = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+
+                            ExpressiveDropdownMenu(
+                                expanded = isMoreMenuExpanded,
+                                onDismissRequest = { isMoreMenuExpanded = false }
+                            ) {
+                                ExpressiveDropdownMenuItem(
+                                    text = stringResource(R.string.rename),
+                                    onClick = {
+                                        isMoreMenuExpanded = false
+                                        getRecyclerAdapter()?.executeAction(R.id.cab_rename)
+                                    }
+                                )
+                                ExpressiveDropdownMenuItem(
+                                    text = stringResource(R.string.properties),
+                                    onClick = {
+                                        isMoreMenuExpanded = false
+                                        getRecyclerAdapter()?.executeAction(R.id.cab_properties)
+                                    }
+                                )
+                                ExpressiveDropdownMenuItem(
+                                    text = stringResource(R.string.compress),
+                                    onClick = {
+                                        isMoreMenuExpanded = false
+                                        getRecyclerAdapter()?.executeAction(R.id.cab_compress)
+                                    }
+                                )
+                                if (canDecompress) {
+                                    ExpressiveDropdownMenuItem(
+                                        text = stringResource(R.string.decompress),
+                                        onClick = {
+                                            isMoreMenuExpanded = false
+                                            getRecyclerAdapter()?.executeAction(R.id.cab_decompress)
+                                        }
+                                    )
+                                }
+                                if (isOneItem) {
+                                    ExpressiveDropdownMenuItem(
+                                        text = stringResource(R.string.copy_path),
+                                        onClick = {
+                                            isMoreMenuExpanded = false
+                                            getRecyclerAdapter()?.executeAction(R.id.cab_copy_path)
+                                        }
+                                    )
+                                    ExpressiveDropdownMenuItem(
+                                        text = stringResource(R.string.create_shortcut),
+                                        onClick = {
+                                            isMoreMenuExpanded = false
+                                            getRecyclerAdapter()?.executeAction(R.id.cab_create_shortcut)
+                                        }
+                                    )
+                                }
+                                if (isOneFile) {
+                                    ExpressiveDropdownMenuItem(
+                                        text = stringResource(R.string.open_with),
+                                        onClick = {
+                                            isMoreMenuExpanded = false
+                                            getRecyclerAdapter()?.executeAction(R.id.cab_open_with)
+                                        }
+                                    )
+                                    ExpressiveDropdownMenuItem(
+                                        text = stringResource(R.string.open_as),
+                                        onClick = {
+                                            isMoreMenuExpanded = false
+                                            getRecyclerAdapter()?.executeAction(R.id.cab_open_as)
+                                        }
+                                    )
+                                    ExpressiveDropdownMenuItem(
+                                        text = stringResource(R.string.set_as),
+                                        onClick = {
+                                            isMoreMenuExpanded = false
+                                            getRecyclerAdapter()?.executeAction(R.id.cab_set_as)
+                                        }
+                                    )
+                                }
+                                if (hasUnhidden) {
+                                    ExpressiveDropdownMenuItem(
+                                        text = stringResource(R.string.hide),
+                                        onClick = {
+                                            isMoreMenuExpanded = false
+                                            getRecyclerAdapter()?.executeAction(R.id.cab_hide)
+                                        }
+                                    )
+                                }
+                                if (hasHidden) {
+                                    ExpressiveDropdownMenuItem(
+                                        text = stringResource(R.string.unhide),
+                                        onClick = {
+                                            isMoreMenuExpanded = false
+                                            getRecyclerAdapter()?.executeAction(R.id.cab_unhide)
+                                        }
+                                    )
+                                }
+                            }
+                        }
+
+                        IconButton(
+                            onClick = { finishActMode() }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Rounded.Close,
+                                contentDescription = stringResource(R.string.cancel),
+                                tint = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
                     }
                 }
             }
@@ -73,8 +357,11 @@ class ItemsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerF
         binding.apply {
             val properPrimaryColor = context!!.getProperPrimaryColor()
             itemsFastscroller.updateColors(properPrimaryColor)
-            progressBar.setIndicatorColor(properPrimaryColor)
-            progressBar.trackColor = properPrimaryColor.adjustAlpha(LOWER_ALPHA)
+            itemsSwipeRefresh.updateColors()
+            if (!context!!.isDynamicTheme()) {
+                progressBar.setIndicatorColor(properPrimaryColor)
+                progressBar.trackColor = properPrimaryColor.adjustAlpha(LOWER_ALPHA)
+            }
 
             if (currentPath != "") {
                 breadcrumbs.updateColor(textColor)
@@ -97,6 +384,13 @@ class ItemsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerF
 
     override fun finishActMode() {
         getRecyclerAdapter()?.finishActMode()
+        selectedItemsCountState.intValue = 0
+        totalSelectableCountState.intValue = 0
+        isOneItemSelectedState.value = false
+        isOneFileSelectedState.value = false
+        canDecompressState.value = false
+        hasHiddenItemsState.value = false
+        hasUnhiddenItemsState.value = false
     }
 
     fun openPath(path: String, forceRefresh: Boolean = false) {
@@ -164,7 +458,17 @@ class ItemsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerF
                     itemClicked(it as FileDirItem)
                 }
             }.apply {
+                clearActionModeMenu = true
                 setupZoomListener(zoomListener)
+                onSelectionChangedListener = { count, total ->
+                    selectedItemsCountState.intValue = count
+                    totalSelectableCountState.intValue = total
+                    isOneItemSelectedState.value = isOneItemSelected()
+                    isOneFileSelectedState.value = isOneFileSelected()
+                    canDecompressState.value = canDecompress()
+                    hasHiddenItemsState.value = hasHiddenItems()
+                    hasUnhiddenItemsState.value = hasUnhiddenItems()
+                }
                 binding.itemsList.adapter = this
             }
 

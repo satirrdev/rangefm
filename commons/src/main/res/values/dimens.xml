@@ -15,6 +15,9 @@
 
     <dimen name="material_dialog_corner_radius">28dp</dimen>
     <dimen name="material_button_corner_radius">24dp</dimen>
+    <dimen name="expressive_card_corner_radius">24dp</dimen>
+    <dimen name="expressive_floating_toolbar_corner_radius">28dp</dimen>
+    <dimen name="expressive_pill_corner_radius">50dp</dimen>
     <dimen name="social_logo">40dp</dimen>
     <dimen name="color_sample_size">34dp</dimen>
     <dimen name="shortcut_size">64dp</dimen>
@@ -35,7 +38,7 @@
     <dimen name="top_shadow_height">100dp</dimen>
     <dimen name="rounded_corner_radius_small">4dp</dimen>
     <dimen name="rounded_corner_radius_big">10dp</dimen>
-    <dimen name="bottom_sheet_corner_radius">24dp</dimen>
+    <dimen name="bottom_sheet_corner_radius">28dp</dimen>
     <dimen name="breadcrumbs_layout_height">40dp</dimen>
     <dimen name="simple_list_item_height">56dp</dimen>
 

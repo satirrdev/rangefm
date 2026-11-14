@@ -44,7 +44,7 @@ abstract class MyViewPagerFragment<BINDING : MyViewPagerFragment.InnerBinding>(c
         }
     }
 
-    fun updateIsCreateDocumentIntent(isCreateDocumentIntent: Boolean) {
+    open fun updateIsCreateDocumentIntent(isCreateDocumentIntent: Boolean) {
         val iconId = if (isCreateDocumentIntent) {
             R.drawable.ic_check_vector
         } else {
@@ -101,7 +101,7 @@ abstract class MyViewPagerFragment<BINDING : MyViewPagerFragment.InnerBinding>(c
     }
 
     class ItemsInnerBinding(val binding: ItemsFragmentBinding) : InnerBinding {
-        override val itemsFab: MyFloatingActionButton = binding.itemsFab
+        override val itemsFab: MyFloatingActionButton? = null
     }
 
     class RecentsInnerBinding(val binding: RecentsFragmentBinding) : InnerBinding {

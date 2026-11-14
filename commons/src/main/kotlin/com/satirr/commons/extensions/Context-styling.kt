@@ -51,30 +51,40 @@ fun Context.isSystemInDarkMode() = resources.configuration.uiMode and Configurat
 fun Context.isAutoTheme() = !isSPlus() && baseConfig.isSystemThemeEnabled
 
 fun Context.getProperTextColor() = when {
-    isDynamicTheme() -> resources.getColor(R.color.you_neutral_text_color, theme)
+    isDynamicTheme() -> MaterialColors.getColor(
+        this, com.google.android.material.R.attr.colorOnSurface, resources.getColor(R.color.you_neutral_text_color, theme)
+    )
     else -> baseConfig.textColor
 }
 
 fun Context.getProperBackgroundColor() = when {
-    isDynamicTheme() -> resources.getColor(R.color.you_background_color, theme)
+    isDynamicTheme() -> MaterialColors.getColor(
+        this, com.google.android.material.R.attr.colorSurface, resources.getColor(R.color.you_background_color, theme)
+    )
     else -> baseConfig.backgroundColor
 }
 
 fun Context.getProperPrimaryColor() = when {
-    isDynamicTheme() -> resources.getColor(R.color.you_primary_color, theme)
+    isDynamicTheme() -> MaterialColors.getColor(
+        this, androidx.appcompat.R.attr.colorPrimary, resources.getColor(R.color.you_primary_color, theme)
+    )
     isWhiteTheme() || isBlackAndWhiteTheme() -> baseConfig.accentColor
     else -> baseConfig.primaryColor
 }
 
 fun Context.getProperStatusBarColor() = when {
-    isDynamicTheme() -> resources.getColor(R.color.you_status_bar_color, theme)
+    isDynamicTheme() -> MaterialColors.getColor(
+        this, com.google.android.material.R.attr.colorSurface, resources.getColor(R.color.you_status_bar_color, theme)
+    )
     else -> getProperBackgroundColor()
 }
 
 // get the color of the status bar with material activity, if the layout is scrolled down a bit
 fun Context.getColoredMaterialStatusBarColor(): Int {
     return when {
-        isDynamicTheme() -> resources.getColor(R.color.you_status_bar_color, theme)
+        isDynamicTheme() -> MaterialColors.getColor(
+            this, com.google.android.material.R.attr.colorSurface, resources.getColor(R.color.you_status_bar_color, theme)
+        )
         else -> getProperPrimaryColor()
     }
 }
@@ -213,7 +223,9 @@ fun Context.getAppIconColors() = resources.getIntArray(R.array.md_app_icon_color
 fun Context.getBottomNavigationBackgroundColor(): Int {
     val baseColor = baseConfig.backgroundColor
     val bottomColor = when {
-        isDynamicTheme() -> resources.getColor(R.color.you_status_bar_color, theme)
+        isDynamicTheme() -> MaterialColors.getColor(
+            this, com.google.android.material.R.attr.colorSurfaceContainer, resources.getColor(R.color.you_status_bar_color, theme)
+        )
         baseColor == Color.WHITE -> resources.getColor(R.color.bottom_tabs_light_background)
         else -> baseConfig.backgroundColor.lightenColor(4)
     }

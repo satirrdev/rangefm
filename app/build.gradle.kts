@@ -6,6 +6,7 @@ import java.io.FileInputStream
 plugins {
     alias(libs.plugins.android)
     alias(libs.plugins.detekt)
+    alias(libs.plugins.compose.compiler)
 }
 
 val keystorePropertiesFile: File = rootProject.file("keystore.properties")
@@ -62,6 +63,7 @@ android {
     buildFeatures {
         viewBinding = true
         buildConfig = true
+        compose = true
     }
 
     buildTypes {
@@ -138,6 +140,8 @@ detekt {
 
 dependencies {
     implementation(project(":commons"))
+    implementation(libs.bundles.compose)
+    implementation(libs.compose.view.binding)
     implementation(libs.androidx.documentfile)
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.roottools)

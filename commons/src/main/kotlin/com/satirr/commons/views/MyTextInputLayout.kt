@@ -5,6 +5,7 @@ import android.content.res.ColorStateList
 import android.util.AttributeSet
 import com.google.android.material.textfield.TextInputLayout
 import com.satirr.commons.extensions.adjustAlpha
+import com.satirr.commons.extensions.isDynamicTheme
 import com.satirr.commons.extensions.value
 import com.satirr.commons.helpers.FontHelper
 import com.satirr.commons.helpers.HIGHER_ALPHA
@@ -31,6 +32,7 @@ open class MyTextInputLayout : TextInputLayout {
 
     // we need to use reflection to make some colors work well
     fun setColors(textColor: Int, accentColor: Int, backgroundColor: Int) {
+        if (context.isDynamicTheme()) return
         try {
             editText!!.setTextColor(textColor)
             editText!!.backgroundTintList = ColorStateList.valueOf(accentColor)

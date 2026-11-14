@@ -6,10 +6,12 @@ import android.util.AttributeSet
 import androidx.core.content.withStyledAttributes
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.color.MaterialColors
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.satirr.commons.R
 import com.satirr.commons.extensions.applyColorFilter
 import com.satirr.commons.extensions.getContrastColor
+import com.satirr.commons.extensions.isDynamicTheme
 import com.satirr.commons.extensions.updateMarginWithBase
 
 open class MyFloatingActionButton : FloatingActionButton {
@@ -41,9 +43,23 @@ open class MyFloatingActionButton : FloatingActionButton {
                 insets
             }
         }
+
+        val cornerRadius = context.resources.getDimension(R.dimen.material_button_corner_radius)
+        shapeAppearanceModel = shapeAppearanceModel.toBuilder().setAllCornerSizes(cornerRadius).build()
     }
 
     fun setColors(textColor: Int, accentColor: Int, backgroundColor: Int) {
+        if (context.isDynamicTheme()) {
+            val containerColor = MaterialColors.getColor(
+                context, com.google.android.material.R.attr.colorPrimaryContainer, accentColor
+            )
+            val iconColor = MaterialColors.getColor(
+                context, com.google.android.material.R.attr.colorOnPrimaryContainer, accentColor.getContrastColor()
+            )
+            backgroundTintList = ColorStateList.valueOf(containerColor)
+            imageTintList = ColorStateList.valueOf(iconColor)
+            return
+        }
         backgroundTintList = ColorStateList.valueOf(accentColor)
         applyColorFilter(accentColor.getContrastColor())
     }

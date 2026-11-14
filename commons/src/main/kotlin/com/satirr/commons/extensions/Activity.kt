@@ -1513,17 +1513,23 @@ fun Activity.setupDialogStuff(
             if (!isFinishing) {
                 show()
             }
-            getButton(Dialog.BUTTON_POSITIVE)?.apply {
-                setTextColor(primaryColor)
-                applyFontToTextView(this)
-            }
-            getButton(Dialog.BUTTON_NEGATIVE)?.apply {
-                setTextColor(primaryColor)
-                applyFontToTextView(this)
-            }
-            getButton(Dialog.BUTTON_NEUTRAL)?.apply {
-                setTextColor(primaryColor)
-                applyFontToTextView(this)
+            if (!isDynamicTheme()) {
+                getButton(Dialog.BUTTON_POSITIVE)?.apply {
+                    setTextColor(primaryColor)
+                    applyFontToTextView(this)
+                }
+                getButton(Dialog.BUTTON_NEGATIVE)?.apply {
+                    setTextColor(primaryColor)
+                    applyFontToTextView(this)
+                }
+                getButton(Dialog.BUTTON_NEUTRAL)?.apply {
+                    setTextColor(primaryColor)
+                    applyFontToTextView(this)
+                }
+            } else {
+                getButton(Dialog.BUTTON_POSITIVE)?.let { applyFontToTextView(it) }
+                getButton(Dialog.BUTTON_NEGATIVE)?.let { applyFontToTextView(it) }
+                getButton(Dialog.BUTTON_NEUTRAL)?.let { applyFontToTextView(it) }
             }
 
             applyFontToViewRecursively(view)
